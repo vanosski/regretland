@@ -528,4 +528,10 @@ tfoot td { background: rgba(34,211,238,0.06); font-weight: 700; border-top: 1px 
   .data-table th, .data-table td, table th, table td {
     white-space: nowrap;
   }
+
+  /* Prevent table from clipping at 100% container width so scroll reaches the end */
+  table, .data-table {
+    width: max-content !important;
+    min-width: 100%;
+  }
 }
