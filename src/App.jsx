@@ -86,6 +86,10 @@ function App() {
             <Route path="/glory"     element={<GloryPage />} />
           </Routes>
         </main>
+
+        <footer className="app-footer">
+          <p>MADE BY <span className="author-name">ARYA</span></p>
+        </footer>
       </div>
     </BrowserRouter>
   );

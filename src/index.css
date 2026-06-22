@@ -394,6 +394,30 @@ tfoot td { background: rgba(34,211,238,0.06); font-weight: 700; border-top: 1px 
 .text-right { text-align: right; }
 
 /* ============================================================
+   FOOTER
+   ============================================================ */
+.app-footer {
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: auto;
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  letter-spacing: 2px;
+  background: rgba(8, 11, 20, 0.8);
+  backdrop-filter: blur(8px);
+  border-top: 1px solid rgba(244, 114, 182, 0.2);
+}
+.author-name {
+  background: linear-gradient(to right, #f472b6, #c084fc);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+  font-weight: 800;
+  font-size: 1rem;
+  letter-spacing: 3px;
+  filter: drop-shadow(0 0 8px rgba(244, 114, 182, 0.8));
+}
+
+/* ============================================================
    RESPONSIVE
    ============================================================ */
 @media (max-width: 768px) {
