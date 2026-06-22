@@ -24,8 +24,8 @@ const calcRow = (unitKey, level, star) => {
 const GloryPage = () => {
   useEffect(() => {
     document.body.style.backgroundImage = `
-        linear-gradient(to bottom, rgba(8,11,20,0.40) 0%, rgba(8,11,20,0.72) 50%, rgba(8,11,20,0.97) 100%),
-        url('/glory_banner.png')
+      linear-gradient(to bottom, rgba(8,11,20,0.55) 0%, rgba(8,11,20,0.80) 55%, rgba(8,11,20,0.97) 100%),
+      url('/glory_banner.jpg')
     `;
     document.body.style.backgroundSize = 'cover';
     document.body.style.backgroundPosition = 'center top';

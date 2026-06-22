@@ -27,7 +27,7 @@ const BlessingPage = () => {
     useEffect(() => {
         document.body.style.backgroundImage = `
             linear-gradient(to bottom, rgba(8,11,20,0.60) 0%, rgba(8,11,20,0.85) 50%, rgba(8,11,20,0.98) 100%),
-            url('/blessing_banner.png')
+            url('/blessing_banner.jpg')
         `;
         document.body.style.backgroundSize = 'cover';
         document.body.style.backgroundPosition = 'center top';

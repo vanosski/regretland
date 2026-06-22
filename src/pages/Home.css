@@ -22,7 +22,7 @@
       rgba(8, 11, 20, 0.85) 70%,
       rgba(8, 11, 20, 0.98) 100%
     ),
-    url('/home_banner.png');
+    url('/home_banner.jpg');
   background-size: cover;
   background-position: center top;
   z-index: -2;

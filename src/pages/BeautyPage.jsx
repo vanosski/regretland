@@ -3,11 +3,11 @@ import { Wand2 } from 'lucide-react';
 import globalData from '../data/beauty_stats.json';
 
 const BEAUTY_BG = {
-  "Chang'e":    '/change.png',
-  'Azai Chacha':'/azai_chacha.png',
-  'Helen':      '/helen.png',
-  'Statila':    '/statila.png',
-  'Wajit':      '/wajit.png',
+  "Chang'e":    '/change.jpg',
+  'Azai Chacha':'/azai_chacha.jpg',
+  'Helen':      '/helen.jpg',
+  'Statila':    '/statila.jpg',
+  'Wajit':      '/wajit.jpg',
 };
 
 const RARITY_ORDER = ["Common", "Uncommon", "Rare", "Epic", "Gold", "Mythic"];
