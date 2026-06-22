@@ -150,32 +150,31 @@ const BeautyPage = () => {
                 <h1 className="page-title" style={{ color: 'var(--primary)', textShadow: 'var(--shadow-neon)' }}><Wand2 size={32} /> Beauty Manor</h1>
             </header>
 
-            <div className="beauty-tabs">
-                {beauties.map(beauty => (
-                    <button 
-                        key={beauty} 
-                        className={`tab-btn ${activeTab === beauty ? 'active' : ''}`}
-                        onClick={() => handleTabChange(beauty)}
-                    >
-                        {beauty}
-                    </button>
-                ))}
-            </div>
-
-            {activeDresses.length > 1 && (
-                <div className="beauty-sub-tabs" style={{ display: 'flex', gap: '0.8rem', justifyContent: 'center', marginBottom: '2rem', flexWrap: 'nowrap', overflowX: 'auto', WebkitOverflowScrolling: 'touch', paddingBottom: '5px' }}>
-                    {activeDresses.map((dress, idx) => (
-                        <button 
-                            key={idx}
-                            className={`tab-btn ${activeDressIndex === idx ? 'active' : ''}`}
-                            onClick={() => setActiveDressIndex(idx)}
-                            style={{ padding: '0.4rem 1.2rem', fontSize: '0.9rem' }}
-                        >
-                            Dress {ROMAN_NUMERALS[idx] || (idx + 1)}
-                        </button>
+            <div className="glass-select-container">
+                <select 
+                    className="glass-select" 
+                    value={activeTab} 
+                    onChange={(e) => handleTabChange(e.target.value)}
+                >
+                    {beauties.map(beauty => (
+                        <option key={beauty} value={beauty}>{beauty}</option>
                     ))}
-                </div>
-            )}
+                </select>
+
+                {activeDresses.length > 1 && (
+                    <select 
+                        className="glass-select" 
+                        value={activeDressIndex} 
+                        onChange={(e) => setActiveDressIndex(Number(e.target.value))}
+                    >
+                        {activeDresses.map((dress, idx) => (
+                            <option key={idx} value={idx}>
+                                Dress {ROMAN_NUMERALS[idx] || (idx + 1)}
+                            </option>
+                        ))}
+                    </select>
+                )}
+            </div>
 
             <div className="content-area">
                 {activeDresses.length > 0 && renderDress(activeDresses[activeDressIndex])}

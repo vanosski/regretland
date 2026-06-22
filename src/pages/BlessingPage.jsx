@@ -111,16 +111,16 @@ const BlessingPage = () => {
                 <h1 className="page-title"><Sparkles size={32} /> Blessing Analytics</h1>
             </header>
 
-            <div className="blessing-tabs">
-                {tabs.map(tab => (
-                    <button 
-                        key={tab} 
-                        className={`tab-btn ${activeTab === tab ? 'active' : ''}`}
-                        onClick={() => setActiveTab(tab)}
-                    >
-                        {tab}
-                    </button>
-                ))}
+            <div className="glass-select-container">
+                <select 
+                    className="glass-select" 
+                    value={activeTab} 
+                    onChange={(e) => setActiveTab(e.target.value)}
+                >
+                    {tabs.map(tab => (
+                        <option key={tab} value={tab}>{tab}</option>
+                    ))}
+                </select>
             </div>
 
             <div className="summary-stats">

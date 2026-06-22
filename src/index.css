@@ -284,27 +284,63 @@ tbody tr:hover td { background: rgba(34,211,238,0.04); }
 tfoot td { background: rgba(34,211,238,0.06); font-weight: 700; border-top: 1px solid rgba(34,211,238,0.2); color: var(--cyan); }
 
 /* ============================================================
-   TABS — pill style
+   TABS AND DROPDOWNS
    ============================================================ */
 .tabs, .blessing-tabs, .beauty-tabs {
-  display: flex; gap: 0.8rem; flex-wrap: wrap; margin-bottom: 2rem; justify-content: center;
+  display: flex; gap: 1rem; margin-bottom: 2rem; justify-content: center;
+  flex-wrap: wrap;
 }
 .tab-btn {
-  background: rgba(15, 20, 35, 0.75); color: #ffffff;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  padding: 0.65rem 1.5rem; font-family: var(--font-heading); font-size: 1rem;
-  font-weight: 600; letter-spacing: 1.5px; border-radius: 50px; transition: all 0.2s;
-  text-transform: uppercase; backdrop-filter: blur(8px);
-  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
-  white-space: nowrap; /* Prevent text from stacking on small screens */
+  background: var(--glass-bg); backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border); color: var(--text-secondary);
+  padding: 0.6rem 1.5rem; border-radius: 20px; font-weight: 600;
+  font-family: var(--font-heading); letter-spacing: 1px;
+  cursor: pointer; transition: all 0.3s ease; font-size: 1rem;
+  text-transform: uppercase;
 }
-.tab-btn:hover { color: var(--cyan); border-color: rgba(34,211,238,0.4); background: rgba(34,211,238,0.08); }
+.tab-btn:hover { border-color: var(--cyan); color: var(--cyan); box-shadow: 0 0 10px rgba(34,211,238,0.2); }
 .tab-btn.active {
-  background: linear-gradient(135deg, rgba(34,211,238,0.2), rgba(167,139,250,0.2));
-  border-color: rgba(34, 211, 238, 0.6);
-  color: var(--cyan); font-weight: 700;
-  box-shadow: 0 0 15px rgba(34,211,238,0.2);
-  text-shadow: 0 0 10px var(--glow-cyan);
+  background: rgba(34,211,238,0.15); border-color: var(--cyan); color: var(--cyan);
+  box-shadow: 0 0 15px rgba(34,211,238,0.3);
+}
+
+.glass-select-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.glass-select {
+  appearance: none;
+  background: rgba(8, 11, 20, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--glass-border);
+  color: var(--cyan);
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 0.8rem 3rem 0.8rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: var(--shadow-card);
+  background-image: url('data:image/svg+xml;utf8,<svg fill="%2322d3ee" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+  background-position-y: 50%;
+  transition: all 0.3s ease;
+}
+.glass-select:hover, .glass-select:focus {
+  border-color: var(--cyan);
+  box-shadow: 0 0 15px rgba(34, 211, 238, 0.3);
+}
+.glass-select option {
+  background: #080b14;
+  color: #fff;
+  font-family: var(--font-body);
 }
 
 /* ============================================================
