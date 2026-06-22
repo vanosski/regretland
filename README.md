@@ -1,16 +1,39 @@
-# React + Vite
+# ⚔️ Department of Regret
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the **Department of Regret**, the ultimate suite of advanced calculators and analytics tools for Last Land commanders who refuse to leave their progression to chance.
 
-Currently, two official plugins are available:
+## 🔮 Tools Included
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🌸 **Beauty Manor**: Detailed statistical breakdowns and resource requirements (Dress Fragments, Silk, Golden Fleece) to upgrade your beauties' dresses across all rarities and levels.
+- ✨ **Blessing Analytics**: A full breakdown of Blessing Gems, charting the exact XP and gold required to reach max level for every gem type.
+- 💎 **Gem Calculator**: Instantly calculate the exact combinations of base gems needed to synthesize high-level crystals.
+- ⚔️ **Glory Calculator**: Calculate the exact Glory points required for your infantry, cavalry, archer, and siege unit upgrades to hit your combat milestones perfectly.
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Dark Fantasy Aesthetic**: Cinematic full-screen backgrounds, glowing neon text, glassmorphism UI, and custom thematic fonts.
+- **Fully Responsive**: Optimized for desktop and swipable on mobile phones so you can calculate on the go.
+- **Dynamic Interactions**: Ambient background lighting, hover glowing effects, and fluid CSS gradients.
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js** (Vite)
+- **Vanilla CSS3**
+- **Lucide Icons**
+- **React Router** for seamless SPA navigation
+
+## ⚙️ Running Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/vanosski/regretland.git
+   cd regretland
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
