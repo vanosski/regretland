@@ -157,7 +157,6 @@ const BlessingPage = () => {
                             <thead>
                                 <tr>
                                     <th>Global Lv</th>
-                                    <th>Node ID</th>
                                     <th>Node Lv</th>
                                     <th>Level Cost</th>
                                     <th>Cumulative Cost</th>
@@ -170,7 +169,6 @@ const BlessingPage = () => {
                                 {currentData.map(row => (
                                     <tr key={row.global_lv}>
                                         <td>{row.global_lv}</td>
-                                        <td>{row.node_id}</td>
                                         <td>{row.node_lv}</td>
                                         <td>{row.cost}</td>
                                         <td>{row.cum_cost}</td>

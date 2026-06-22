@@ -70,7 +70,7 @@ const BeautyPage = () => {
         return (
             <div key={dress.id} className="dress-section">
                 <div className="dress-header">
-                    <h2>{dress.name} <span className="dress-id">ID: {dress.id}</span></h2>
+                    <h2>{dress.name}</h2>
                 </div>
                 <div className="table-container" style={{ maxHeight: 'none' }}>
                     <table>
