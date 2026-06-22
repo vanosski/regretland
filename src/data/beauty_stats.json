@@ -1,0 +1,5887 @@
+{
+  "Chang'e": [
+    {
+      "name": "Oriental Beauty",
+      "id": 10100,
+      "levels": {
+        "Common": {
+          "stats": [
+            {
+              "buff_name": "Resource Production",
+              "value": 1.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Resource gather Speed",
+              "value": 1.0,
+              "is_percent": 1,
+              "unlock_lv": 3
+            },
+            {
+              "buff_name": "Artillery Attack",
+              "value": 23.0,
+              "is_percent": 1,
+              "unlock_lv": 13
+            },
+            {
+              "buff_name": "Reinforce Capacity",
+              "value": 2500,
+              "is_percent": 0,
+              "unlock_lv": 23
+            },
+            {
+              "buff_name": "Silver Mine Storage",
+              "value": 3.0,
+              "is_percent": 1,
+              "unlock_lv": 33
+            }
+          ],
+          "costs": []
+        },
+        "Uncommon": {
+          "stats": [
+            {
+              "buff_name": "Resource Production",
+              "value": 2.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Resource gather Speed",
+              "value": 2.0,
+              "is_percent": 1,
+              "unlock_lv": 3
+            },
+            {
+              "buff_name": "Artillery Attack",
+              "value": 45.0,
+              "is_percent": 1,
+              "unlock_lv": 13
+            },
+            {
+              "buff_name": "Reinforce Capacity",
+              "value": 7500,
+              "is_percent": 0,
+              "unlock_lv": 23
+            },
+            {
+              "buff_name": "Silver Mine Storage",
+              "value": 7.0,
+              "is_percent": 1,
+              "unlock_lv": 33
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110037,
+              "param_1": 35
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 100
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 960
+            }
+          ]
+        },
+        "Rare": {
+          "stats": [
+            {
+              "buff_name": "Resource Production",
+              "value": 4.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Resource gather Speed",
+              "value": 4.0,
+              "is_percent": 1,
+              "unlock_lv": 3
+            },
+            {
+              "buff_name": "Artillery Attack",
+              "value": 82.0,
+              "is_percent": 1,
+              "unlock_lv": 13
+            },
+            {
+              "buff_name": "Reinforce Capacity",
+              "value": 15500,
+              "is_percent": 0,
+              "unlock_lv": 23
+            },
+            {
+              "buff_name": "Silver Mine Storage",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 33
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110037,
+              "param_1": 120
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 330
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 3200
+            }
+          ]
+        },
+        "Epic": {
+          "stats": [
+            {
+              "buff_name": "Resource Production",
+              "value": 8.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Resource gather Speed",
+              "value": 8.0,
+              "is_percent": 1,
+              "unlock_lv": 3
+            },
+            {
+              "buff_name": "Artillery Attack",
+              "value": 150.0,
+              "is_percent": 1,
+              "unlock_lv": 13
+            },
+            {
+              "buff_name": "Reinforce Capacity",
+              "value": 30500,
+              "is_percent": 0,
+              "unlock_lv": 23
+            },
+            {
+              "buff_name": "Silver Mine Storage",
+              "value": 35.0,
+              "is_percent": 1,
+              "unlock_lv": 33
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110037,
+              "param_1": 345
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 950
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 9200
+            }
+          ]
+        },
+        "Gold": {
+          "stats": [
+            {
+              "buff_name": "Resource Production",
+              "value": 15.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Resource gather Speed",
+              "value": 15.0,
+              "is_percent": 1,
+              "unlock_lv": 3
+            },
+            {
+              "buff_name": "Artillery Attack",
+              "value": 270.0,
+              "is_percent": 1,
+              "unlock_lv": 13
+            },
+            {
+              "buff_name": "Reinforce Capacity",
+              "value": 57500,
+              "is_percent": 0,
+              "unlock_lv": 23
+            },
+            {
+              "buff_name": "Silver Mine Storage",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 33
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110037,
+              "param_1": 860
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 2400
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 22900
+            }
+          ]
+        },
+        "Mythic": {
+          "stats": [
+            {
+              "buff_name": "Resource Production",
+              "value": 25.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Resource gather Speed",
+              "value": 25.0,
+              "is_percent": 1,
+              "unlock_lv": 3
+            },
+            {
+              "buff_name": "Artillery Attack",
+              "value": 450.0,
+              "is_percent": 1,
+              "unlock_lv": 13
+            },
+            {
+              "buff_name": "Reinforce Capacity",
+              "value": 97500,
+              "is_percent": 0,
+              "unlock_lv": 23
+            },
+            {
+              "buff_name": "Silver Mine Storage",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 33
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110037,
+              "param_1": 1700
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 4800
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 45800
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Fairy on the Moon",
+      "id": 10200,
+      "levels": {
+        "Common": {
+          "stats": [
+            {
+              "buff_name": "Resource Storage",
+              "value": 1.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Iron Production",
+              "value": 3.0,
+              "is_percent": 1,
+              "unlock_lv": 5
+            },
+            {
+              "buff_name": "Iron gather Speed",
+              "value": 3.0,
+              "is_percent": 1,
+              "unlock_lv": 15
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 5000,
+              "is_percent": 0,
+              "unlock_lv": 25
+            },
+            {
+              "buff_name": "Artillery Damage",
+              "value": 9.0,
+              "is_percent": 1,
+              "unlock_lv": 36
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110038,
+              "param_1": 10
+            }
+          ]
+        },
+        "Uncommon": {
+          "stats": [
+            {
+              "buff_name": "Resource Storage",
+              "value": 2.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Iron Production",
+              "value": 7.0,
+              "is_percent": 1,
+              "unlock_lv": 5
+            },
+            {
+              "buff_name": "Iron gather Speed",
+              "value": 7.0,
+              "is_percent": 1,
+              "unlock_lv": 15
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 7500,
+              "is_percent": 0,
+              "unlock_lv": 25
+            },
+            {
+              "buff_name": "Artillery Damage",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 36
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110038,
+              "param_1": 40
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 110
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 1100
+            }
+          ]
+        },
+        "Rare": {
+          "stats": [
+            {
+              "buff_name": "Resource Storage",
+              "value": 4.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Iron Production",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 5
+            },
+            {
+              "buff_name": "Iron gather Speed",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 15
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 11500,
+              "is_percent": 0,
+              "unlock_lv": 25
+            },
+            {
+              "buff_name": "Artillery Damage",
+              "value": 28.0,
+              "is_percent": 1,
+              "unlock_lv": 36
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110038,
+              "param_1": 140
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 380
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 3700
+            }
+          ]
+        },
+        "Epic": {
+          "stats": [
+            {
+              "buff_name": "Resource Storage",
+              "value": 8.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Iron Production",
+              "value": 35.0,
+              "is_percent": 1,
+              "unlock_lv": 5
+            },
+            {
+              "buff_name": "Iron gather Speed",
+              "value": 35.0,
+              "is_percent": 1,
+              "unlock_lv": 15
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 19000,
+              "is_percent": 0,
+              "unlock_lv": 25
+            },
+            {
+              "buff_name": "Artillery Damage",
+              "value": 50.0,
+              "is_percent": 1,
+              "unlock_lv": 36
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110038,
+              "param_1": 400
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 1100
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 10700
+            }
+          ]
+        },
+        "Gold": {
+          "stats": [
+            {
+              "buff_name": "Resource Storage",
+              "value": 15.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Iron Production",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 5
+            },
+            {
+              "buff_name": "Iron gather Speed",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 15
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 32500,
+              "is_percent": 0,
+              "unlock_lv": 25
+            },
+            {
+              "buff_name": "Artillery Damage",
+              "value": 90.0,
+              "is_percent": 1,
+              "unlock_lv": 36
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110038,
+              "param_1": 1000
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 2800
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 26700
+            }
+          ]
+        },
+        "Mythic": {
+          "stats": [
+            {
+              "buff_name": "Resource Storage",
+              "value": 25.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Iron Production",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 5
+            },
+            {
+              "buff_name": "Iron gather Speed",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 15
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 52500,
+              "is_percent": 0,
+              "unlock_lv": 25
+            },
+            {
+              "buff_name": "Artillery Damage",
+              "value": 150.0,
+              "is_percent": 1,
+              "unlock_lv": 36
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110038,
+              "param_1": 2000
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 5600
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 53400
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Princess Phoenix",
+      "id": 10300,
+      "levels": {
+        "Common": {
+          "stats": [
+            {
+              "buff_name": "Silver gather Speed",
+              "value": 3.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Iron Mine Storage",
+              "value": 3.0,
+              "is_percent": 1,
+              "unlock_lv": 7
+            },
+            {
+              "buff_name": "Silver Production",
+              "value": 3.0,
+              "is_percent": 1,
+              "unlock_lv": 17
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 5000,
+              "is_percent": 0,
+              "unlock_lv": 27
+            },
+            {
+              "buff_name": "Catapult Damage",
+              "value": 9.0,
+              "is_percent": 1,
+              "unlock_lv": 45
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110039,
+              "param_1": 10
+            }
+          ]
+        },
+        "Uncommon": {
+          "stats": [
+            {
+              "buff_name": "Silver gather Speed",
+              "value": 7.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Iron Mine Storage",
+              "value": 7.0,
+              "is_percent": 1,
+              "unlock_lv": 7
+            },
+            {
+              "buff_name": "Silver Production",
+              "value": 7.0,
+              "is_percent": 1,
+              "unlock_lv": 17
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 7500,
+              "is_percent": 0,
+              "unlock_lv": 27
+            },
+            {
+              "buff_name": "Catapult Damage",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 45
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110039,
+              "param_1": 40
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 110
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 1100
+            }
+          ]
+        },
+        "Rare": {
+          "stats": [
+            {
+              "buff_name": "Silver gather Speed",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Iron Mine Storage",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 7
+            },
+            {
+              "buff_name": "Silver Production",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 17
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 11500,
+              "is_percent": 0,
+              "unlock_lv": 27
+            },
+            {
+              "buff_name": "Catapult Damage",
+              "value": 28.0,
+              "is_percent": 1,
+              "unlock_lv": 45
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110039,
+              "param_1": 170
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 470
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 4700
+            }
+          ]
+        },
+        "Epic": {
+          "stats": [
+            {
+              "buff_name": "Silver gather Speed",
+              "value": 35.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Iron Mine Storage",
+              "value": 35.0,
+              "is_percent": 1,
+              "unlock_lv": 7
+            },
+            {
+              "buff_name": "Silver Production",
+              "value": 35.0,
+              "is_percent": 1,
+              "unlock_lv": 17
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 19000,
+              "is_percent": 0,
+              "unlock_lv": 27
+            },
+            {
+              "buff_name": "Catapult Damage",
+              "value": 50.0,
+              "is_percent": 1,
+              "unlock_lv": 45
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110039,
+              "param_1": 500
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 1400
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 13300
+            }
+          ]
+        },
+        "Gold": {
+          "stats": [
+            {
+              "buff_name": "Silver gather Speed",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Iron Mine Storage",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 7
+            },
+            {
+              "buff_name": "Silver Production",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 17
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 32500,
+              "is_percent": 0,
+              "unlock_lv": 27
+            },
+            {
+              "buff_name": "Catapult Damage",
+              "value": 90.0,
+              "is_percent": 1,
+              "unlock_lv": 45
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110039,
+              "param_1": 1300
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 3500
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 33400
+            }
+          ]
+        },
+        "Mythic": {
+          "stats": [
+            {
+              "buff_name": "Silver gather Speed",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Iron Mine Storage",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 7
+            },
+            {
+              "buff_name": "Silver Production",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 17
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 52500,
+              "is_percent": 0,
+              "unlock_lv": 27
+            },
+            {
+              "buff_name": "Catapult Damage",
+              "value": 150.0,
+              "is_percent": 1,
+              "unlock_lv": 45
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110039,
+              "param_1": 2500
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 6900
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 66700
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Queen Peacock",
+      "id": 10400,
+      "levels": {
+        "Common": {
+          "stats": [
+            {
+              "buff_name": "Infantry Health",
+              "value": 8.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Troop Attack",
+              "value": 4.0,
+              "is_percent": 1,
+              "unlock_lv": 10
+            },
+            {
+              "buff_name": "Siege Defense",
+              "value": 10.0,
+              "is_percent": 1,
+              "unlock_lv": 20
+            },
+            {
+              "buff_name": "Siege Health",
+              "value": 5.0,
+              "is_percent": 1,
+              "unlock_lv": 30
+            },
+            {
+              "buff_name": "Troop Attack",
+              "value": 2.0,
+              "is_percent": 1,
+              "unlock_lv": 40
+            },
+            {
+              "buff_name": "Infantry Health",
+              "value": 4.0,
+              "is_percent": 1,
+              "unlock_lv": 50
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110040,
+              "param_1": 20
+            }
+          ]
+        },
+        "Uncommon": {
+          "stats": [
+            {
+              "buff_name": "Infantry Health",
+              "value": 25.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Troop Attack",
+              "value": 9.0,
+              "is_percent": 1,
+              "unlock_lv": 10
+            },
+            {
+              "buff_name": "Siege Defense",
+              "value": 25.0,
+              "is_percent": 1,
+              "unlock_lv": 20
+            },
+            {
+              "buff_name": "Siege Health",
+              "value": 13.0,
+              "is_percent": 1,
+              "unlock_lv": 30
+            },
+            {
+              "buff_name": "Troop Attack",
+              "value": 5.0,
+              "is_percent": 1,
+              "unlock_lv": 40
+            },
+            {
+              "buff_name": "Infantry Health",
+              "value": 12.0,
+              "is_percent": 1,
+              "unlock_lv": 50
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110040,
+              "param_1": 120
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 330
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 3200
+            }
+          ]
+        },
+        "Rare": {
+          "stats": [
+            {
+              "buff_name": "Infantry Health",
+              "value": 50.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Troop Attack",
+              "value": 20.0,
+              "is_percent": 1,
+              "unlock_lv": 10
+            },
+            {
+              "buff_name": "Siege Defense",
+              "value": 55.0,
+              "is_percent": 1,
+              "unlock_lv": 20
+            },
+            {
+              "buff_name": "Siege Health",
+              "value": 30.0,
+              "is_percent": 1,
+              "unlock_lv": 30
+            },
+            {
+              "buff_name": "Troop Attack",
+              "value": 10.0,
+              "is_percent": 1,
+              "unlock_lv": 40
+            },
+            {
+              "buff_name": "Infantry Health",
+              "value": 25.0,
+              "is_percent": 1,
+              "unlock_lv": 50
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110040,
+              "param_1": 400
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 1100
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 10700
+            }
+          ]
+        },
+        "Epic": {
+          "stats": [
+            {
+              "buff_name": "Infantry Health",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Troop Attack",
+              "value": 40.0,
+              "is_percent": 1,
+              "unlock_lv": 10
+            },
+            {
+              "buff_name": "Siege Defense",
+              "value": 110.0,
+              "is_percent": 1,
+              "unlock_lv": 20
+            },
+            {
+              "buff_name": "Siege Health",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 30
+            },
+            {
+              "buff_name": "Troop Attack",
+              "value": 20.0,
+              "is_percent": 1,
+              "unlock_lv": 40
+            },
+            {
+              "buff_name": "Infantry Health",
+              "value": 50.0,
+              "is_percent": 1,
+              "unlock_lv": 50
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110040,
+              "param_1": 1200
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 3200
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 30500
+            }
+          ]
+        },
+        "Gold": {
+          "stats": [
+            {
+              "buff_name": "Infantry Health",
+              "value": 180.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Troop Attack",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 10
+            },
+            {
+              "buff_name": "Siege Defense",
+              "value": 198.0,
+              "is_percent": 1,
+              "unlock_lv": 20
+            },
+            {
+              "buff_name": "Siege Health",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 30
+            },
+            {
+              "buff_name": "Troop Attack",
+              "value": 30.0,
+              "is_percent": 1,
+              "unlock_lv": 40
+            },
+            {
+              "buff_name": "Infantry Health",
+              "value": 90.0,
+              "is_percent": 1,
+              "unlock_lv": 50
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110040,
+              "param_1": 2900
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 7900
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 76300
+            }
+          ]
+        },
+        "Mythic": {
+          "stats": [
+            {
+              "buff_name": "Infantry Health",
+              "value": 300.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Troop Attack",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 10
+            },
+            {
+              "buff_name": "Siege Defense",
+              "value": 330.0,
+              "is_percent": 1,
+              "unlock_lv": 20
+            },
+            {
+              "buff_name": "Siege Health",
+              "value": 170.0,
+              "is_percent": 1,
+              "unlock_lv": 30
+            },
+            {
+              "buff_name": "Troop Attack",
+              "value": 50.0,
+              "is_percent": 1,
+              "unlock_lv": 40
+            },
+            {
+              "buff_name": "Infantry Health",
+              "value": 150.0,
+              "is_percent": 1,
+              "unlock_lv": 50
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110040,
+              "param_1": 5800
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 15900
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 152500
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "Azai Chacha": [
+    {
+      "name": "Tale of Sakura",
+      "id": 20100,
+      "levels": {
+        "Common": {
+          "stats": [
+            {
+              "buff_name": "Silver Production",
+              "value": 3.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Iron Mine Storage",
+              "value": 3.0,
+              "is_percent": 1,
+              "unlock_lv": 3
+            },
+            {
+              "buff_name": "Wood gather Speed",
+              "value": 3.0,
+              "is_percent": 1,
+              "unlock_lv": 13
+            },
+            {
+              "buff_name": "Reinforce Capacity",
+              "value": 2500,
+              "is_percent": 0,
+              "unlock_lv": 23
+            },
+            {
+              "buff_name": "Defender Crossbow Loss",
+              "value": -2.0,
+              "is_percent": 1,
+              "unlock_lv": 33
+            }
+          ],
+          "costs": []
+        },
+        "Uncommon": {
+          "stats": [
+            {
+              "buff_name": "Silver Production",
+              "value": 7.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Iron Mine Storage",
+              "value": 7.0,
+              "is_percent": 1,
+              "unlock_lv": 3
+            },
+            {
+              "buff_name": "Wood gather Speed",
+              "value": 7.0,
+              "is_percent": 1,
+              "unlock_lv": 13
+            },
+            {
+              "buff_name": "Reinforce Capacity",
+              "value": 7500,
+              "is_percent": 0,
+              "unlock_lv": 23
+            },
+            {
+              "buff_name": "Defender Crossbow Loss",
+              "value": -3.0,
+              "is_percent": 1,
+              "unlock_lv": 33
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110041,
+              "param_1": 35
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 100
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 960
+            }
+          ]
+        },
+        "Rare": {
+          "stats": [
+            {
+              "buff_name": "Silver Production",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Iron Mine Storage",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 3
+            },
+            {
+              "buff_name": "Wood gather Speed",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 13
+            },
+            {
+              "buff_name": "Reinforce Capacity",
+              "value": 15500,
+              "is_percent": 0,
+              "unlock_lv": 23
+            },
+            {
+              "buff_name": "Defender Crossbow Loss",
+              "value": -5.0,
+              "is_percent": 1,
+              "unlock_lv": 33
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110041,
+              "param_1": 120
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 330
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 3200
+            }
+          ]
+        },
+        "Epic": {
+          "stats": [
+            {
+              "buff_name": "Silver Production",
+              "value": 35.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Iron Mine Storage",
+              "value": 35.0,
+              "is_percent": 1,
+              "unlock_lv": 3
+            },
+            {
+              "buff_name": "Wood gather Speed",
+              "value": 35.0,
+              "is_percent": 1,
+              "unlock_lv": 13
+            },
+            {
+              "buff_name": "Reinforce Capacity",
+              "value": 30500,
+              "is_percent": 0,
+              "unlock_lv": 23
+            },
+            {
+              "buff_name": "Defender Crossbow Loss",
+              "value": -9.0,
+              "is_percent": 1,
+              "unlock_lv": 33
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110041,
+              "param_1": 345
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 950
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 9200
+            }
+          ]
+        },
+        "Gold": {
+          "stats": [
+            {
+              "buff_name": "Silver Production",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Iron Mine Storage",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 3
+            },
+            {
+              "buff_name": "Wood gather Speed",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 13
+            },
+            {
+              "buff_name": "Reinforce Capacity",
+              "value": 57500,
+              "is_percent": 0,
+              "unlock_lv": 23
+            },
+            {
+              "buff_name": "Defender Crossbow Loss",
+              "value": -15.0,
+              "is_percent": 1,
+              "unlock_lv": 33
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110041,
+              "param_1": 860
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 2400
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 22900
+            }
+          ]
+        },
+        "Mythic": {
+          "stats": [
+            {
+              "buff_name": "Silver Production",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Iron Mine Storage",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 3
+            },
+            {
+              "buff_name": "Wood gather Speed",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 13
+            },
+            {
+              "buff_name": "Reinforce Capacity",
+              "value": 97500,
+              "is_percent": 0,
+              "unlock_lv": 23
+            },
+            {
+              "buff_name": "Defender Crossbow Loss",
+              "value": -25.0,
+              "is_percent": 1,
+              "unlock_lv": 33
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110041,
+              "param_1": 1700
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 4800
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 45800
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Momoyama Girl",
+      "id": 20200,
+      "levels": {
+        "Common": {
+          "stats": [
+            {
+              "buff_name": "Silver Mine Storage",
+              "value": 3.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Silver gather Speed",
+              "value": 3.0,
+              "is_percent": 1,
+              "unlock_lv": 5
+            },
+            {
+              "buff_name": "Sawmill Storage",
+              "value": 3.0,
+              "is_percent": 1,
+              "unlock_lv": 15
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 5000,
+              "is_percent": 0,
+              "unlock_lv": 25
+            },
+            {
+              "buff_name": "Defender Crossbow Damage",
+              "value": 9.0,
+              "is_percent": 1,
+              "unlock_lv": 36
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110042,
+              "param_1": 10
+            }
+          ]
+        },
+        "Uncommon": {
+          "stats": [
+            {
+              "buff_name": "Silver Mine Storage",
+              "value": 7.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Silver gather Speed",
+              "value": 7.0,
+              "is_percent": 1,
+              "unlock_lv": 5
+            },
+            {
+              "buff_name": "Sawmill Storage",
+              "value": 7.0,
+              "is_percent": 1,
+              "unlock_lv": 15
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 7500,
+              "is_percent": 0,
+              "unlock_lv": 25
+            },
+            {
+              "buff_name": "Defender Crossbow Damage",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 36
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110042,
+              "param_1": 40
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 110
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 1100
+            }
+          ]
+        },
+        "Rare": {
+          "stats": [
+            {
+              "buff_name": "Silver Mine Storage",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Silver gather Speed",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 5
+            },
+            {
+              "buff_name": "Sawmill Storage",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 15
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 11500,
+              "is_percent": 0,
+              "unlock_lv": 25
+            },
+            {
+              "buff_name": "Defender Crossbow Damage",
+              "value": 28.0,
+              "is_percent": 1,
+              "unlock_lv": 36
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110042,
+              "param_1": 140
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 380
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 3700
+            }
+          ]
+        },
+        "Epic": {
+          "stats": [
+            {
+              "buff_name": "Silver Mine Storage",
+              "value": 35.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Silver gather Speed",
+              "value": 35.0,
+              "is_percent": 1,
+              "unlock_lv": 5
+            },
+            {
+              "buff_name": "Sawmill Storage",
+              "value": 35.0,
+              "is_percent": 1,
+              "unlock_lv": 15
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 19000,
+              "is_percent": 0,
+              "unlock_lv": 25
+            },
+            {
+              "buff_name": "Defender Crossbow Damage",
+              "value": 50.0,
+              "is_percent": 1,
+              "unlock_lv": 36
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110042,
+              "param_1": 400
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 1100
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 10700
+            }
+          ]
+        },
+        "Gold": {
+          "stats": [
+            {
+              "buff_name": "Silver Mine Storage",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Silver gather Speed",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 5
+            },
+            {
+              "buff_name": "Sawmill Storage",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 15
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 32500,
+              "is_percent": 0,
+              "unlock_lv": 25
+            },
+            {
+              "buff_name": "Defender Crossbow Damage",
+              "value": 90.0,
+              "is_percent": 1,
+              "unlock_lv": 36
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110042,
+              "param_1": 1000
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 2800
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 26700
+            }
+          ]
+        },
+        "Mythic": {
+          "stats": [
+            {
+              "buff_name": "Silver Mine Storage",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Silver gather Speed",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 5
+            },
+            {
+              "buff_name": "Sawmill Storage",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 15
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 52500,
+              "is_percent": 0,
+              "unlock_lv": 25
+            },
+            {
+              "buff_name": "Defender Crossbow Damage",
+              "value": 150.0,
+              "is_percent": 1,
+              "unlock_lv": 36
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110042,
+              "param_1": 2000
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 5600
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 53400
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Wisteria Whisper",
+      "id": 20300,
+      "levels": {
+        "Common": {
+          "stats": [
+            {
+              "buff_name": "Iron gather Speed",
+              "value": 3.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Wood Production",
+              "value": 3.0,
+              "is_percent": 1,
+              "unlock_lv": 7
+            },
+            {
+              "buff_name": "Iron Production",
+              "value": 3.0,
+              "is_percent": 1,
+              "unlock_lv": 17
+            },
+            {
+              "buff_name": "Catapult Damage",
+              "value": 9.0,
+              "is_percent": 1,
+              "unlock_lv": 27
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 5000,
+              "is_percent": 0,
+              "unlock_lv": 45
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110043,
+              "param_1": 10
+            }
+          ]
+        },
+        "Uncommon": {
+          "stats": [
+            {
+              "buff_name": "Iron gather Speed",
+              "value": 7.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Wood Production",
+              "value": 7.0,
+              "is_percent": 1,
+              "unlock_lv": 7
+            },
+            {
+              "buff_name": "Iron Production",
+              "value": 7.0,
+              "is_percent": 1,
+              "unlock_lv": 17
+            },
+            {
+              "buff_name": "Catapult Damage",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 27
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 7500,
+              "is_percent": 0,
+              "unlock_lv": 45
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110043,
+              "param_1": 40
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 110
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 1100
+            }
+          ]
+        },
+        "Rare": {
+          "stats": [
+            {
+              "buff_name": "Iron gather Speed",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Wood Production",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 7
+            },
+            {
+              "buff_name": "Iron Production",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 17
+            },
+            {
+              "buff_name": "Catapult Damage",
+              "value": 28.0,
+              "is_percent": 1,
+              "unlock_lv": 27
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 11500,
+              "is_percent": 0,
+              "unlock_lv": 45
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110043,
+              "param_1": 170
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 470
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 4700
+            }
+          ]
+        },
+        "Epic": {
+          "stats": [
+            {
+              "buff_name": "Iron gather Speed",
+              "value": 35.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Wood Production",
+              "value": 35.0,
+              "is_percent": 1,
+              "unlock_lv": 7
+            },
+            {
+              "buff_name": "Iron Production",
+              "value": 35.0,
+              "is_percent": 1,
+              "unlock_lv": 17
+            },
+            {
+              "buff_name": "Catapult Damage",
+              "value": 50.0,
+              "is_percent": 1,
+              "unlock_lv": 27
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 19000,
+              "is_percent": 0,
+              "unlock_lv": 45
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110043,
+              "param_1": 500
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 1400
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 13300
+            }
+          ]
+        },
+        "Gold": {
+          "stats": [
+            {
+              "buff_name": "Iron gather Speed",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Wood Production",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 7
+            },
+            {
+              "buff_name": "Iron Production",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 17
+            },
+            {
+              "buff_name": "Catapult Damage",
+              "value": 90.0,
+              "is_percent": 1,
+              "unlock_lv": 27
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 32500,
+              "is_percent": 0,
+              "unlock_lv": 45
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110043,
+              "param_1": 1300
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 3500
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 33400
+            }
+          ]
+        },
+        "Mythic": {
+          "stats": [
+            {
+              "buff_name": "Iron gather Speed",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Wood Production",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 7
+            },
+            {
+              "buff_name": "Iron Production",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 17
+            },
+            {
+              "buff_name": "Catapult Damage",
+              "value": 150.0,
+              "is_percent": 1,
+              "unlock_lv": 27
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 52500,
+              "is_percent": 0,
+              "unlock_lv": 45
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110043,
+              "param_1": 2500
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 6900
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 66700
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ukiyo-e",
+      "id": 20400,
+      "levels": {
+        "Common": {
+          "stats": [
+            {
+              "buff_name": "Archer Attack",
+              "value": 8.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Archer Health",
+              "value": 8.0,
+              "is_percent": 1,
+              "unlock_lv": 10
+            },
+            {
+              "buff_name": "Cavalry Defense",
+              "value": 8.0,
+              "is_percent": 1,
+              "unlock_lv": 20
+            },
+            {
+              "buff_name": "Archer Attack",
+              "value": 4.0,
+              "is_percent": 1,
+              "unlock_lv": 30
+            },
+            {
+              "buff_name": "Cavalry Health",
+              "value": 4.0,
+              "is_percent": 1,
+              "unlock_lv": 40
+            },
+            {
+              "buff_name": "Siege Attack",
+              "value": 5.0,
+              "is_percent": 1,
+              "unlock_lv": 50
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110044,
+              "param_1": 20
+            }
+          ]
+        },
+        "Uncommon": {
+          "stats": [
+            {
+              "buff_name": "Archer Attack",
+              "value": 25.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Archer Health",
+              "value": 25.0,
+              "is_percent": 1,
+              "unlock_lv": 10
+            },
+            {
+              "buff_name": "Cavalry Defense",
+              "value": 25.0,
+              "is_percent": 1,
+              "unlock_lv": 20
+            },
+            {
+              "buff_name": "Archer Attack",
+              "value": 12.0,
+              "is_percent": 1,
+              "unlock_lv": 30
+            },
+            {
+              "buff_name": "Cavalry Health",
+              "value": 12.0,
+              "is_percent": 1,
+              "unlock_lv": 40
+            },
+            {
+              "buff_name": "Siege Attack",
+              "value": 13.0,
+              "is_percent": 1,
+              "unlock_lv": 50
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110044,
+              "param_1": 120
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 330
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 3200
+            }
+          ]
+        },
+        "Rare": {
+          "stats": [
+            {
+              "buff_name": "Archer Attack",
+              "value": 50.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Archer Health",
+              "value": 50.0,
+              "is_percent": 1,
+              "unlock_lv": 10
+            },
+            {
+              "buff_name": "Cavalry Defense",
+              "value": 50.0,
+              "is_percent": 1,
+              "unlock_lv": 20
+            },
+            {
+              "buff_name": "Archer Attack",
+              "value": 25.0,
+              "is_percent": 1,
+              "unlock_lv": 30
+            },
+            {
+              "buff_name": "Cavalry Health",
+              "value": 25.0,
+              "is_percent": 1,
+              "unlock_lv": 40
+            },
+            {
+              "buff_name": "Siege Attack",
+              "value": 30.0,
+              "is_percent": 1,
+              "unlock_lv": 50
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110044,
+              "param_1": 400
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 1100
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 10700
+            }
+          ]
+        },
+        "Epic": {
+          "stats": [
+            {
+              "buff_name": "Archer Attack",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Archer Health",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 10
+            },
+            {
+              "buff_name": "Cavalry Defense",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 20
+            },
+            {
+              "buff_name": "Archer Attack",
+              "value": 50.0,
+              "is_percent": 1,
+              "unlock_lv": 30
+            },
+            {
+              "buff_name": "Cavalry Health",
+              "value": 50.0,
+              "is_percent": 1,
+              "unlock_lv": 40
+            },
+            {
+              "buff_name": "Siege Attack",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 50
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110044,
+              "param_1": 1200
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 3200
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 30500
+            }
+          ]
+        },
+        "Gold": {
+          "stats": [
+            {
+              "buff_name": "Archer Attack",
+              "value": 180.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Archer Health",
+              "value": 180.0,
+              "is_percent": 1,
+              "unlock_lv": 10
+            },
+            {
+              "buff_name": "Cavalry Defense",
+              "value": 180.0,
+              "is_percent": 1,
+              "unlock_lv": 20
+            },
+            {
+              "buff_name": "Archer Attack",
+              "value": 90.0,
+              "is_percent": 1,
+              "unlock_lv": 30
+            },
+            {
+              "buff_name": "Cavalry Health",
+              "value": 90.0,
+              "is_percent": 1,
+              "unlock_lv": 40
+            },
+            {
+              "buff_name": "Siege Attack",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 50
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110044,
+              "param_1": 2900
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 7900
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 76300
+            }
+          ]
+        },
+        "Mythic": {
+          "stats": [
+            {
+              "buff_name": "Archer Attack",
+              "value": 300.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Archer Health",
+              "value": 300.0,
+              "is_percent": 1,
+              "unlock_lv": 10
+            },
+            {
+              "buff_name": "Cavalry Defense",
+              "value": 300.0,
+              "is_percent": 1,
+              "unlock_lv": 20
+            },
+            {
+              "buff_name": "Archer Attack",
+              "value": 150.0,
+              "is_percent": 1,
+              "unlock_lv": 30
+            },
+            {
+              "buff_name": "Cavalry Health",
+              "value": 150.0,
+              "is_percent": 1,
+              "unlock_lv": 40
+            },
+            {
+              "buff_name": "Siege Attack",
+              "value": 170.0,
+              "is_percent": 1,
+              "unlock_lv": 50
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110044,
+              "param_1": 5800
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 15900
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 152500
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "Helen": [
+    {
+      "name": "Princess of Sparta",
+      "id": 30100,
+      "levels": {
+        "Common": {
+          "stats": [
+            {
+              "buff_name": "Wood Production",
+              "value": 3.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Wood gather Speed",
+              "value": 3.0,
+              "is_percent": 1,
+              "unlock_lv": 3
+            },
+            {
+              "buff_name": "Reinforce Capacity",
+              "value": 2500,
+              "is_percent": 0,
+              "unlock_lv": 13
+            },
+            {
+              "buff_name": "Catapult Attack",
+              "value": 23.0,
+              "is_percent": 1,
+              "unlock_lv": 23
+            },
+            {
+              "buff_name": "Farm Storage",
+              "value": 3.0,
+              "is_percent": 1,
+              "unlock_lv": 33
+            }
+          ],
+          "costs": []
+        },
+        "Uncommon": {
+          "stats": [
+            {
+              "buff_name": "Wood Production",
+              "value": 7.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Wood gather Speed",
+              "value": 7.0,
+              "is_percent": 1,
+              "unlock_lv": 3
+            },
+            {
+              "buff_name": "Reinforce Capacity",
+              "value": 7500,
+              "is_percent": 0,
+              "unlock_lv": 13
+            },
+            {
+              "buff_name": "Catapult Attack",
+              "value": 45.0,
+              "is_percent": 1,
+              "unlock_lv": 23
+            },
+            {
+              "buff_name": "Farm Storage",
+              "value": 7.0,
+              "is_percent": 1,
+              "unlock_lv": 33
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110045,
+              "param_1": 35
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 100
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 960
+            }
+          ]
+        },
+        "Rare": {
+          "stats": [
+            {
+              "buff_name": "Wood Production",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Wood gather Speed",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 3
+            },
+            {
+              "buff_name": "Reinforce Capacity",
+              "value": 15500,
+              "is_percent": 0,
+              "unlock_lv": 13
+            },
+            {
+              "buff_name": "Catapult Attack",
+              "value": 82.0,
+              "is_percent": 1,
+              "unlock_lv": 23
+            },
+            {
+              "buff_name": "Farm Storage",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 33
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110045,
+              "param_1": 120
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 330
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 3200
+            }
+          ]
+        },
+        "Epic": {
+          "stats": [
+            {
+              "buff_name": "Wood Production",
+              "value": 35.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Wood gather Speed",
+              "value": 35.0,
+              "is_percent": 1,
+              "unlock_lv": 3
+            },
+            {
+              "buff_name": "Reinforce Capacity",
+              "value": 30500,
+              "is_percent": 0,
+              "unlock_lv": 13
+            },
+            {
+              "buff_name": "Catapult Attack",
+              "value": 150.0,
+              "is_percent": 1,
+              "unlock_lv": 23
+            },
+            {
+              "buff_name": "Farm Storage",
+              "value": 35.0,
+              "is_percent": 1,
+              "unlock_lv": 33
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110045,
+              "param_1": 345
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 950
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 9200
+            }
+          ]
+        },
+        "Gold": {
+          "stats": [
+            {
+              "buff_name": "Wood Production",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Wood gather Speed",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 3
+            },
+            {
+              "buff_name": "Reinforce Capacity",
+              "value": 57500,
+              "is_percent": 0,
+              "unlock_lv": 13
+            },
+            {
+              "buff_name": "Catapult Attack",
+              "value": 270.0,
+              "is_percent": 1,
+              "unlock_lv": 23
+            },
+            {
+              "buff_name": "Farm Storage",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 33
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110045,
+              "param_1": 860
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 2400
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 22900
+            }
+          ]
+        },
+        "Mythic": {
+          "stats": [
+            {
+              "buff_name": "Wood Production",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Wood gather Speed",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 3
+            },
+            {
+              "buff_name": "Reinforce Capacity",
+              "value": 97500,
+              "is_percent": 0,
+              "unlock_lv": 13
+            },
+            {
+              "buff_name": "Catapult Attack",
+              "value": 450.0,
+              "is_percent": 1,
+              "unlock_lv": 23
+            },
+            {
+              "buff_name": "Farm Storage",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 33
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110045,
+              "param_1": 1700
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 4800
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 45800
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Chaotic Allure",
+      "id": 30200,
+      "levels": {
+        "Common": {
+          "stats": [
+            {
+              "buff_name": "Resource Production",
+              "value": 1.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Food gather Speed",
+              "value": 3.0,
+              "is_percent": 1,
+              "unlock_lv": 5
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 5000,
+              "is_percent": 0,
+              "unlock_lv": 15
+            },
+            {
+              "buff_name": "Food Production",
+              "value": 3.0,
+              "is_percent": 1,
+              "unlock_lv": 25
+            },
+            {
+              "buff_name": "Artillery Damage",
+              "value": 9.0,
+              "is_percent": 1,
+              "unlock_lv": 36
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110046,
+              "param_1": 10
+            }
+          ]
+        },
+        "Uncommon": {
+          "stats": [
+            {
+              "buff_name": "Resource Production",
+              "value": 2.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Food gather Speed",
+              "value": 7.0,
+              "is_percent": 1,
+              "unlock_lv": 5
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 7500,
+              "is_percent": 0,
+              "unlock_lv": 15
+            },
+            {
+              "buff_name": "Food Production",
+              "value": 7.0,
+              "is_percent": 1,
+              "unlock_lv": 25
+            },
+            {
+              "buff_name": "Artillery Damage",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 36
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110046,
+              "param_1": 40
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 110
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 1100
+            }
+          ]
+        },
+        "Rare": {
+          "stats": [
+            {
+              "buff_name": "Resource Production",
+              "value": 4.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Food gather Speed",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 5
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 11500,
+              "is_percent": 0,
+              "unlock_lv": 15
+            },
+            {
+              "buff_name": "Food Production",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 25
+            },
+            {
+              "buff_name": "Artillery Damage",
+              "value": 28.0,
+              "is_percent": 1,
+              "unlock_lv": 36
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110046,
+              "param_1": 140
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 380
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 3700
+            }
+          ]
+        },
+        "Epic": {
+          "stats": [
+            {
+              "buff_name": "Resource Production",
+              "value": 8.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Food gather Speed",
+              "value": 35.0,
+              "is_percent": 1,
+              "unlock_lv": 5
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 19000,
+              "is_percent": 0,
+              "unlock_lv": 15
+            },
+            {
+              "buff_name": "Food Production",
+              "value": 35.0,
+              "is_percent": 1,
+              "unlock_lv": 25
+            },
+            {
+              "buff_name": "Artillery Damage",
+              "value": 50.0,
+              "is_percent": 1,
+              "unlock_lv": 36
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110046,
+              "param_1": 400
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 1100
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 10700
+            }
+          ]
+        },
+        "Gold": {
+          "stats": [
+            {
+              "buff_name": "Resource Production",
+              "value": 15.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Food gather Speed",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 5
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 32500,
+              "is_percent": 0,
+              "unlock_lv": 15
+            },
+            {
+              "buff_name": "Food Production",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 25
+            },
+            {
+              "buff_name": "Artillery Damage",
+              "value": 90.0,
+              "is_percent": 1,
+              "unlock_lv": 36
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110046,
+              "param_1": 1000
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 2800
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 26700
+            }
+          ]
+        },
+        "Mythic": {
+          "stats": [
+            {
+              "buff_name": "Resource Production",
+              "value": 25.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Food gather Speed",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 5
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 52500,
+              "is_percent": 0,
+              "unlock_lv": 15
+            },
+            {
+              "buff_name": "Food Production",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 25
+            },
+            {
+              "buff_name": "Artillery Damage",
+              "value": 150.0,
+              "is_percent": 1,
+              "unlock_lv": 36
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110046,
+              "param_1": 2000
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 5600
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 53400
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Queen Elf",
+      "id": 30300,
+      "levels": {
+        "Common": {
+          "stats": [
+            {
+              "buff_name": "Sawmill Storage",
+              "value": 3.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Defender crossbow attack",
+              "value": 23.0,
+              "is_percent": 1,
+              "unlock_lv": 7
+            },
+            {
+              "buff_name": "Resource Storage",
+              "value": 1.0,
+              "is_percent": 1,
+              "unlock_lv": 17
+            },
+            {
+              "buff_name": "Resource gather Speed",
+              "value": 1.0,
+              "is_percent": 1,
+              "unlock_lv": 27
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 5000,
+              "is_percent": 0,
+              "unlock_lv": 45
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110047,
+              "param_1": 10
+            }
+          ]
+        },
+        "Uncommon": {
+          "stats": [
+            {
+              "buff_name": "Sawmill Storage",
+              "value": 7.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Defender crossbow attack",
+              "value": 45.0,
+              "is_percent": 1,
+              "unlock_lv": 7
+            },
+            {
+              "buff_name": "Resource Storage",
+              "value": 2.0,
+              "is_percent": 1,
+              "unlock_lv": 17
+            },
+            {
+              "buff_name": "Resource gather Speed",
+              "value": 2.0,
+              "is_percent": 1,
+              "unlock_lv": 27
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 7500,
+              "is_percent": 0,
+              "unlock_lv": 45
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110047,
+              "param_1": 40
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 110
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 1100
+            }
+          ]
+        },
+        "Rare": {
+          "stats": [
+            {
+              "buff_name": "Sawmill Storage",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Defender crossbow attack",
+              "value": 82.0,
+              "is_percent": 1,
+              "unlock_lv": 7
+            },
+            {
+              "buff_name": "Resource Storage",
+              "value": 4.0,
+              "is_percent": 1,
+              "unlock_lv": 17
+            },
+            {
+              "buff_name": "Resource gather Speed",
+              "value": 4.0,
+              "is_percent": 1,
+              "unlock_lv": 27
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 11500,
+              "is_percent": 0,
+              "unlock_lv": 45
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110047,
+              "param_1": 170
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 470
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 4700
+            }
+          ]
+        },
+        "Epic": {
+          "stats": [
+            {
+              "buff_name": "Sawmill Storage",
+              "value": 35.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Defender crossbow attack",
+              "value": 150.0,
+              "is_percent": 1,
+              "unlock_lv": 7
+            },
+            {
+              "buff_name": "Resource Storage",
+              "value": 8.0,
+              "is_percent": 1,
+              "unlock_lv": 17
+            },
+            {
+              "buff_name": "Resource gather Speed",
+              "value": 8.0,
+              "is_percent": 1,
+              "unlock_lv": 27
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 19000,
+              "is_percent": 0,
+              "unlock_lv": 45
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110047,
+              "param_1": 500
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 1400
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 13300
+            }
+          ]
+        },
+        "Gold": {
+          "stats": [
+            {
+              "buff_name": "Sawmill Storage",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Defender crossbow attack",
+              "value": 270.0,
+              "is_percent": 1,
+              "unlock_lv": 7
+            },
+            {
+              "buff_name": "Resource Storage",
+              "value": 15.0,
+              "is_percent": 1,
+              "unlock_lv": 17
+            },
+            {
+              "buff_name": "Resource gather Speed",
+              "value": 15.0,
+              "is_percent": 1,
+              "unlock_lv": 27
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 32500,
+              "is_percent": 0,
+              "unlock_lv": 45
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110047,
+              "param_1": 1300
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 3500
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 33400
+            }
+          ]
+        },
+        "Mythic": {
+          "stats": [
+            {
+              "buff_name": "Sawmill Storage",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Defender crossbow attack",
+              "value": 450.0,
+              "is_percent": 1,
+              "unlock_lv": 7
+            },
+            {
+              "buff_name": "Resource Storage",
+              "value": 25.0,
+              "is_percent": 1,
+              "unlock_lv": 17
+            },
+            {
+              "buff_name": "Resource gather Speed",
+              "value": 25.0,
+              "is_percent": 1,
+              "unlock_lv": 27
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 52500,
+              "is_percent": 0,
+              "unlock_lv": 45
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110047,
+              "param_1": 2500
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 6900
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 66700
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Night Goddess",
+      "id": 30400,
+      "levels": {
+        "Common": {
+          "stats": [
+            {
+              "buff_name": "Infantry Attack",
+              "value": 8.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Infantry Defense",
+              "value": 8.0,
+              "is_percent": 1,
+              "unlock_lv": 10
+            },
+            {
+              "buff_name": "Infantry Attack",
+              "value": 4.0,
+              "is_percent": 1,
+              "unlock_lv": 20
+            },
+            {
+              "buff_name": "Siege Health",
+              "value": 10.0,
+              "is_percent": 1,
+              "unlock_lv": 30
+            },
+            {
+              "buff_name": "Archer Defense",
+              "value": 4.0,
+              "is_percent": 1,
+              "unlock_lv": 40
+            },
+            {
+              "buff_name": "Infantry Defense",
+              "value": 4.0,
+              "is_percent": 1,
+              "unlock_lv": 50
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110048,
+              "param_1": 20
+            }
+          ]
+        },
+        "Uncommon": {
+          "stats": [
+            {
+              "buff_name": "Infantry Attack",
+              "value": 25.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Infantry Defense",
+              "value": 25.0,
+              "is_percent": 1,
+              "unlock_lv": 10
+            },
+            {
+              "buff_name": "Infantry Attack",
+              "value": 12.0,
+              "is_percent": 1,
+              "unlock_lv": 20
+            },
+            {
+              "buff_name": "Siege Health",
+              "value": 25.0,
+              "is_percent": 1,
+              "unlock_lv": 30
+            },
+            {
+              "buff_name": "Archer Defense",
+              "value": 12.0,
+              "is_percent": 1,
+              "unlock_lv": 40
+            },
+            {
+              "buff_name": "Infantry Defense",
+              "value": 12.0,
+              "is_percent": 1,
+              "unlock_lv": 50
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110048,
+              "param_1": 120
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 330
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 3200
+            }
+          ]
+        },
+        "Rare": {
+          "stats": [
+            {
+              "buff_name": "Infantry Attack",
+              "value": 50.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Infantry Defense",
+              "value": 50.0,
+              "is_percent": 1,
+              "unlock_lv": 10
+            },
+            {
+              "buff_name": "Infantry Attack",
+              "value": 25.0,
+              "is_percent": 1,
+              "unlock_lv": 20
+            },
+            {
+              "buff_name": "Siege Health",
+              "value": 55.0,
+              "is_percent": 1,
+              "unlock_lv": 30
+            },
+            {
+              "buff_name": "Archer Defense",
+              "value": 25.0,
+              "is_percent": 1,
+              "unlock_lv": 40
+            },
+            {
+              "buff_name": "Infantry Defense",
+              "value": 25.0,
+              "is_percent": 1,
+              "unlock_lv": 50
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110048,
+              "param_1": 400
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 1100
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 10700
+            }
+          ]
+        },
+        "Epic": {
+          "stats": [
+            {
+              "buff_name": "Infantry Attack",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Infantry Defense",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 10
+            },
+            {
+              "buff_name": "Infantry Attack",
+              "value": 50.0,
+              "is_percent": 1,
+              "unlock_lv": 20
+            },
+            {
+              "buff_name": "Siege Health",
+              "value": 110.0,
+              "is_percent": 1,
+              "unlock_lv": 30
+            },
+            {
+              "buff_name": "Archer Defense",
+              "value": 50.0,
+              "is_percent": 1,
+              "unlock_lv": 40
+            },
+            {
+              "buff_name": "Infantry Defense",
+              "value": 50.0,
+              "is_percent": 1,
+              "unlock_lv": 50
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110048,
+              "param_1": 1200
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 3200
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 30500
+            }
+          ]
+        },
+        "Gold": {
+          "stats": [
+            {
+              "buff_name": "Infantry Attack",
+              "value": 180.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Infantry Defense",
+              "value": 180.0,
+              "is_percent": 1,
+              "unlock_lv": 10
+            },
+            {
+              "buff_name": "Infantry Attack",
+              "value": 90.0,
+              "is_percent": 1,
+              "unlock_lv": 20
+            },
+            {
+              "buff_name": "Siege Health",
+              "value": 198.0,
+              "is_percent": 1,
+              "unlock_lv": 30
+            },
+            {
+              "buff_name": "Archer Defense",
+              "value": 90.0,
+              "is_percent": 1,
+              "unlock_lv": 40
+            },
+            {
+              "buff_name": "Infantry Defense",
+              "value": 90.0,
+              "is_percent": 1,
+              "unlock_lv": 50
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110048,
+              "param_1": 2900
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 7900
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 76300
+            }
+          ]
+        },
+        "Mythic": {
+          "stats": [
+            {
+              "buff_name": "Infantry Attack",
+              "value": 300.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Infantry Defense",
+              "value": 300.0,
+              "is_percent": 1,
+              "unlock_lv": 10
+            },
+            {
+              "buff_name": "Infantry Attack",
+              "value": 150.0,
+              "is_percent": 1,
+              "unlock_lv": 20
+            },
+            {
+              "buff_name": "Siege Health",
+              "value": 330.0,
+              "is_percent": 1,
+              "unlock_lv": 30
+            },
+            {
+              "buff_name": "Archer Defense",
+              "value": 150.0,
+              "is_percent": 1,
+              "unlock_lv": 40
+            },
+            {
+              "buff_name": "Infantry Defense",
+              "value": 150.0,
+              "is_percent": 1,
+              "unlock_lv": 50
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110048,
+              "param_1": 5800
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 15900
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 152500
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "Statila": [
+    {
+      "name": "Deceive Charm",
+      "id": 40100,
+      "levels": {
+        "Common": {
+          "stats": [
+            {
+              "buff_name": "Sawmill Storage",
+              "value": 3.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Silver Production",
+              "value": 3.0,
+              "is_percent": 1,
+              "unlock_lv": 3
+            },
+            {
+              "buff_name": "Silver gather Speed",
+              "value": 3.0,
+              "is_percent": 1,
+              "unlock_lv": 13
+            },
+            {
+              "buff_name": "Artillery Attack",
+              "value": 23.0,
+              "is_percent": 1,
+              "unlock_lv": 23
+            },
+            {
+              "buff_name": "Reinforce Capacity",
+              "value": 2500,
+              "is_percent": 0,
+              "unlock_lv": 33
+            }
+          ],
+          "costs": []
+        },
+        "Uncommon": {
+          "stats": [
+            {
+              "buff_name": "Sawmill Storage",
+              "value": 7.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Silver Production",
+              "value": 7.0,
+              "is_percent": 1,
+              "unlock_lv": 3
+            },
+            {
+              "buff_name": "Silver gather Speed",
+              "value": 7.0,
+              "is_percent": 1,
+              "unlock_lv": 13
+            },
+            {
+              "buff_name": "Artillery Attack",
+              "value": 45.0,
+              "is_percent": 1,
+              "unlock_lv": 23
+            },
+            {
+              "buff_name": "Reinforce Capacity",
+              "value": 7500,
+              "is_percent": 0,
+              "unlock_lv": 33
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110049,
+              "param_1": 35
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 100
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 960
+            }
+          ]
+        },
+        "Rare": {
+          "stats": [
+            {
+              "buff_name": "Sawmill Storage",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Silver Production",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 3
+            },
+            {
+              "buff_name": "Silver gather Speed",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 13
+            },
+            {
+              "buff_name": "Artillery Attack",
+              "value": 82.0,
+              "is_percent": 1,
+              "unlock_lv": 23
+            },
+            {
+              "buff_name": "Reinforce Capacity",
+              "value": 15500,
+              "is_percent": 0,
+              "unlock_lv": 33
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110049,
+              "param_1": 120
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 330
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 3200
+            }
+          ]
+        },
+        "Epic": {
+          "stats": [
+            {
+              "buff_name": "Sawmill Storage",
+              "value": 35.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Silver Production",
+              "value": 35.0,
+              "is_percent": 1,
+              "unlock_lv": 3
+            },
+            {
+              "buff_name": "Silver gather Speed",
+              "value": 35.0,
+              "is_percent": 1,
+              "unlock_lv": 13
+            },
+            {
+              "buff_name": "Artillery Attack",
+              "value": 150.0,
+              "is_percent": 1,
+              "unlock_lv": 23
+            },
+            {
+              "buff_name": "Reinforce Capacity",
+              "value": 30500,
+              "is_percent": 0,
+              "unlock_lv": 33
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110049,
+              "param_1": 345
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 950
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 9200
+            }
+          ]
+        },
+        "Gold": {
+          "stats": [
+            {
+              "buff_name": "Sawmill Storage",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Silver Production",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 3
+            },
+            {
+              "buff_name": "Silver gather Speed",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 13
+            },
+            {
+              "buff_name": "Artillery Attack",
+              "value": 270.0,
+              "is_percent": 1,
+              "unlock_lv": 23
+            },
+            {
+              "buff_name": "Reinforce Capacity",
+              "value": 57500,
+              "is_percent": 0,
+              "unlock_lv": 33
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110049,
+              "param_1": 860
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 2400
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 22900
+            }
+          ]
+        },
+        "Mythic": {
+          "stats": [
+            {
+              "buff_name": "Sawmill Storage",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Silver Production",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 3
+            },
+            {
+              "buff_name": "Silver gather Speed",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 13
+            },
+            {
+              "buff_name": "Artillery Attack",
+              "value": 450.0,
+              "is_percent": 1,
+              "unlock_lv": 23
+            },
+            {
+              "buff_name": "Reinforce Capacity",
+              "value": 97500,
+              "is_percent": 0,
+              "unlock_lv": 33
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110049,
+              "param_1": 1700
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 4800
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 45800
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Rosy Lover",
+      "id": 40200,
+      "levels": {
+        "Common": {
+          "stats": [
+            {
+              "buff_name": "Farm Storage",
+              "value": 3.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Wood gather Speed",
+              "value": 3.0,
+              "is_percent": 1,
+              "unlock_lv": 5
+            },
+            {
+              "buff_name": "Wood Production",
+              "value": 3.0,
+              "is_percent": 1,
+              "unlock_lv": 15
+            },
+            {
+              "buff_name": "Artillery Loss",
+              "value": -2.0,
+              "is_percent": 1,
+              "unlock_lv": 25
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 5000,
+              "is_percent": 0,
+              "unlock_lv": 36
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110050,
+              "param_1": 10
+            }
+          ]
+        },
+        "Uncommon": {
+          "stats": [
+            {
+              "buff_name": "Farm Storage",
+              "value": 7.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Wood gather Speed",
+              "value": 7.0,
+              "is_percent": 1,
+              "unlock_lv": 5
+            },
+            {
+              "buff_name": "Wood Production",
+              "value": 7.0,
+              "is_percent": 1,
+              "unlock_lv": 15
+            },
+            {
+              "buff_name": "Artillery Loss",
+              "value": -3.0,
+              "is_percent": 1,
+              "unlock_lv": 25
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 7500,
+              "is_percent": 0,
+              "unlock_lv": 36
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110050,
+              "param_1": 40
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 110
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 1100
+            }
+          ]
+        },
+        "Rare": {
+          "stats": [
+            {
+              "buff_name": "Farm Storage",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Wood gather Speed",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 5
+            },
+            {
+              "buff_name": "Wood Production",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 15
+            },
+            {
+              "buff_name": "Artillery Loss",
+              "value": -5.0,
+              "is_percent": 1,
+              "unlock_lv": 25
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 11500,
+              "is_percent": 0,
+              "unlock_lv": 36
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110050,
+              "param_1": 140
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 380
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 3700
+            }
+          ]
+        },
+        "Epic": {
+          "stats": [
+            {
+              "buff_name": "Farm Storage",
+              "value": 35.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Wood gather Speed",
+              "value": 35.0,
+              "is_percent": 1,
+              "unlock_lv": 5
+            },
+            {
+              "buff_name": "Wood Production",
+              "value": 35.0,
+              "is_percent": 1,
+              "unlock_lv": 15
+            },
+            {
+              "buff_name": "Artillery Loss",
+              "value": -9.0,
+              "is_percent": 1,
+              "unlock_lv": 25
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 19000,
+              "is_percent": 0,
+              "unlock_lv": 36
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110050,
+              "param_1": 400
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 1100
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 10700
+            }
+          ]
+        },
+        "Gold": {
+          "stats": [
+            {
+              "buff_name": "Farm Storage",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Wood gather Speed",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 5
+            },
+            {
+              "buff_name": "Wood Production",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 15
+            },
+            {
+              "buff_name": "Artillery Loss",
+              "value": -15.0,
+              "is_percent": 1,
+              "unlock_lv": 25
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 32500,
+              "is_percent": 0,
+              "unlock_lv": 36
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110050,
+              "param_1": 1000
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 2800
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 26700
+            }
+          ]
+        },
+        "Mythic": {
+          "stats": [
+            {
+              "buff_name": "Farm Storage",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Wood gather Speed",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 5
+            },
+            {
+              "buff_name": "Wood Production",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 15
+            },
+            {
+              "buff_name": "Artillery Loss",
+              "value": -25.0,
+              "is_percent": 1,
+              "unlock_lv": 25
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 52500,
+              "is_percent": 0,
+              "unlock_lv": 36
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110050,
+              "param_1": 2000
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 5600
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 53400
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ice Queen",
+      "id": 40300,
+      "levels": {
+        "Common": {
+          "stats": [
+            {
+              "buff_name": "Food Production",
+              "value": 3.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Silver Mine Storage",
+              "value": 3.0,
+              "is_percent": 1,
+              "unlock_lv": 7
+            },
+            {
+              "buff_name": "Food gather Speed",
+              "value": 3.0,
+              "is_percent": 1,
+              "unlock_lv": 17
+            },
+            {
+              "buff_name": "Catapult Attack",
+              "value": 23.0,
+              "is_percent": 1,
+              "unlock_lv": 27
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 5000,
+              "is_percent": 0,
+              "unlock_lv": 45
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110051,
+              "param_1": 10
+            }
+          ]
+        },
+        "Uncommon": {
+          "stats": [
+            {
+              "buff_name": "Food Production",
+              "value": 7.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Silver Mine Storage",
+              "value": 7.0,
+              "is_percent": 1,
+              "unlock_lv": 7
+            },
+            {
+              "buff_name": "Food gather Speed",
+              "value": 7.0,
+              "is_percent": 1,
+              "unlock_lv": 17
+            },
+            {
+              "buff_name": "Catapult Attack",
+              "value": 45.0,
+              "is_percent": 1,
+              "unlock_lv": 27
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 7500,
+              "is_percent": 0,
+              "unlock_lv": 45
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110051,
+              "param_1": 40
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 110
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 1100
+            }
+          ]
+        },
+        "Rare": {
+          "stats": [
+            {
+              "buff_name": "Food Production",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Silver Mine Storage",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 7
+            },
+            {
+              "buff_name": "Food gather Speed",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 17
+            },
+            {
+              "buff_name": "Catapult Attack",
+              "value": 82.0,
+              "is_percent": 1,
+              "unlock_lv": 27
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 11500,
+              "is_percent": 0,
+              "unlock_lv": 45
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110051,
+              "param_1": 170
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 470
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 4700
+            }
+          ]
+        },
+        "Epic": {
+          "stats": [
+            {
+              "buff_name": "Food Production",
+              "value": 35.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Silver Mine Storage",
+              "value": 35.0,
+              "is_percent": 1,
+              "unlock_lv": 7
+            },
+            {
+              "buff_name": "Food gather Speed",
+              "value": 35.0,
+              "is_percent": 1,
+              "unlock_lv": 17
+            },
+            {
+              "buff_name": "Catapult Attack",
+              "value": 150.0,
+              "is_percent": 1,
+              "unlock_lv": 27
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 19000,
+              "is_percent": 0,
+              "unlock_lv": 45
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110051,
+              "param_1": 500
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 1400
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 13300
+            }
+          ]
+        },
+        "Gold": {
+          "stats": [
+            {
+              "buff_name": "Food Production",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Silver Mine Storage",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 7
+            },
+            {
+              "buff_name": "Food gather Speed",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 17
+            },
+            {
+              "buff_name": "Catapult Attack",
+              "value": 270.0,
+              "is_percent": 1,
+              "unlock_lv": 27
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 32500,
+              "is_percent": 0,
+              "unlock_lv": 45
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110051,
+              "param_1": 1300
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 3500
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 33400
+            }
+          ]
+        },
+        "Mythic": {
+          "stats": [
+            {
+              "buff_name": "Food Production",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Silver Mine Storage",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 7
+            },
+            {
+              "buff_name": "Food gather Speed",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 17
+            },
+            {
+              "buff_name": "Catapult Attack",
+              "value": 450.0,
+              "is_percent": 1,
+              "unlock_lv": 27
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 52500,
+              "is_percent": 0,
+              "unlock_lv": 45
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110051,
+              "param_1": 2500
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 6900
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 66700
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Desert Flower",
+      "id": 40400,
+      "levels": {
+        "Common": {
+          "stats": [
+            {
+              "buff_name": "Cavalry Attack",
+              "value": 8.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Archer Defense",
+              "value": 8.0,
+              "is_percent": 1,
+              "unlock_lv": 10
+            },
+            {
+              "buff_name": "Troop Defense",
+              "value": 4.0,
+              "is_percent": 1,
+              "unlock_lv": 20
+            },
+            {
+              "buff_name": "Archer Health",
+              "value": 4.0,
+              "is_percent": 1,
+              "unlock_lv": 30
+            },
+            {
+              "buff_name": "Troop Health",
+              "value": 2.0,
+              "is_percent": 1,
+              "unlock_lv": 40
+            },
+            {
+              "buff_name": "Cavalry Attack",
+              "value": 4.0,
+              "is_percent": 1,
+              "unlock_lv": 50
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110052,
+              "param_1": 20
+            }
+          ]
+        },
+        "Uncommon": {
+          "stats": [
+            {
+              "buff_name": "Cavalry Attack",
+              "value": 25.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Archer Defense",
+              "value": 25.0,
+              "is_percent": 1,
+              "unlock_lv": 10
+            },
+            {
+              "buff_name": "Troop Defense",
+              "value": 9.0,
+              "is_percent": 1,
+              "unlock_lv": 20
+            },
+            {
+              "buff_name": "Archer Health",
+              "value": 12.0,
+              "is_percent": 1,
+              "unlock_lv": 30
+            },
+            {
+              "buff_name": "Troop Health",
+              "value": 5.0,
+              "is_percent": 1,
+              "unlock_lv": 40
+            },
+            {
+              "buff_name": "Cavalry Attack",
+              "value": 12.0,
+              "is_percent": 1,
+              "unlock_lv": 50
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110052,
+              "param_1": 120
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 330
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 3200
+            }
+          ]
+        },
+        "Rare": {
+          "stats": [
+            {
+              "buff_name": "Cavalry Attack",
+              "value": 50.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Archer Defense",
+              "value": 50.0,
+              "is_percent": 1,
+              "unlock_lv": 10
+            },
+            {
+              "buff_name": "Troop Defense",
+              "value": 20.0,
+              "is_percent": 1,
+              "unlock_lv": 20
+            },
+            {
+              "buff_name": "Archer Health",
+              "value": 25.0,
+              "is_percent": 1,
+              "unlock_lv": 30
+            },
+            {
+              "buff_name": "Troop Health",
+              "value": 10.0,
+              "is_percent": 1,
+              "unlock_lv": 40
+            },
+            {
+              "buff_name": "Cavalry Attack",
+              "value": 25.0,
+              "is_percent": 1,
+              "unlock_lv": 50
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110052,
+              "param_1": 400
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 1100
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 10700
+            }
+          ]
+        },
+        "Epic": {
+          "stats": [
+            {
+              "buff_name": "Cavalry Attack",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Archer Defense",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 10
+            },
+            {
+              "buff_name": "Troop Defense",
+              "value": 40.0,
+              "is_percent": 1,
+              "unlock_lv": 20
+            },
+            {
+              "buff_name": "Archer Health",
+              "value": 50.0,
+              "is_percent": 1,
+              "unlock_lv": 30
+            },
+            {
+              "buff_name": "Troop Health",
+              "value": 20.0,
+              "is_percent": 1,
+              "unlock_lv": 40
+            },
+            {
+              "buff_name": "Cavalry Attack",
+              "value": 50.0,
+              "is_percent": 1,
+              "unlock_lv": 50
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110052,
+              "param_1": 1200
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 3200
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 30500
+            }
+          ]
+        },
+        "Gold": {
+          "stats": [
+            {
+              "buff_name": "Cavalry Attack",
+              "value": 180.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Archer Defense",
+              "value": 180.0,
+              "is_percent": 1,
+              "unlock_lv": 10
+            },
+            {
+              "buff_name": "Troop Defense",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 20
+            },
+            {
+              "buff_name": "Archer Health",
+              "value": 90.0,
+              "is_percent": 1,
+              "unlock_lv": 30
+            },
+            {
+              "buff_name": "Troop Health",
+              "value": 30.0,
+              "is_percent": 1,
+              "unlock_lv": 40
+            },
+            {
+              "buff_name": "Cavalry Attack",
+              "value": 90.0,
+              "is_percent": 1,
+              "unlock_lv": 50
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110052,
+              "param_1": 2900
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 7900
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 76300
+            }
+          ]
+        },
+        "Mythic": {
+          "stats": [
+            {
+              "buff_name": "Cavalry Attack",
+              "value": 300.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Archer Defense",
+              "value": 300.0,
+              "is_percent": 1,
+              "unlock_lv": 10
+            },
+            {
+              "buff_name": "Troop Defense",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 20
+            },
+            {
+              "buff_name": "Archer Health",
+              "value": 150.0,
+              "is_percent": 1,
+              "unlock_lv": 30
+            },
+            {
+              "buff_name": "Troop Health",
+              "value": 50.0,
+              "is_percent": 1,
+              "unlock_lv": 40
+            },
+            {
+              "buff_name": "Cavalry Attack",
+              "value": 150.0,
+              "is_percent": 1,
+              "unlock_lv": 50
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110052,
+              "param_1": 5800
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 15900
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 152500
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "Wajit": [
+    {
+      "name": "Cat Girl",
+      "id": 50100,
+      "levels": {
+        "Common": {
+          "stats": [
+            {
+              "buff_name": "Resource gather Speed",
+              "value": 1.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Food Production",
+              "value": 3.0,
+              "is_percent": 1,
+              "unlock_lv": 3
+            },
+            {
+              "buff_name": "Resource Production",
+              "value": 1.0,
+              "is_percent": 1,
+              "unlock_lv": 13
+            },
+            {
+              "buff_name": "Defender crossbow attack",
+              "value": 23.0,
+              "is_percent": 1,
+              "unlock_lv": 23
+            },
+            {
+              "buff_name": "Reinforce Capacity",
+              "value": 2500,
+              "is_percent": 0,
+              "unlock_lv": 33
+            }
+          ],
+          "costs": []
+        },
+        "Uncommon": {
+          "stats": [
+            {
+              "buff_name": "Resource gather Speed",
+              "value": 2.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Food Production",
+              "value": 7.0,
+              "is_percent": 1,
+              "unlock_lv": 3
+            },
+            {
+              "buff_name": "Resource Production",
+              "value": 2.0,
+              "is_percent": 1,
+              "unlock_lv": 13
+            },
+            {
+              "buff_name": "Defender crossbow attack",
+              "value": 45.0,
+              "is_percent": 1,
+              "unlock_lv": 23
+            },
+            {
+              "buff_name": "Reinforce Capacity",
+              "value": 7500,
+              "is_percent": 0,
+              "unlock_lv": 33
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110053,
+              "param_1": 35
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 100
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 960
+            }
+          ]
+        },
+        "Rare": {
+          "stats": [
+            {
+              "buff_name": "Resource gather Speed",
+              "value": 4.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Food Production",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 3
+            },
+            {
+              "buff_name": "Resource Production",
+              "value": 4.0,
+              "is_percent": 1,
+              "unlock_lv": 13
+            },
+            {
+              "buff_name": "Defender crossbow attack",
+              "value": 82.0,
+              "is_percent": 1,
+              "unlock_lv": 23
+            },
+            {
+              "buff_name": "Reinforce Capacity",
+              "value": 15500,
+              "is_percent": 0,
+              "unlock_lv": 33
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110053,
+              "param_1": 120
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 330
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 3200
+            }
+          ]
+        },
+        "Epic": {
+          "stats": [
+            {
+              "buff_name": "Resource gather Speed",
+              "value": 8.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Food Production",
+              "value": 35.0,
+              "is_percent": 1,
+              "unlock_lv": 3
+            },
+            {
+              "buff_name": "Resource Production",
+              "value": 8.0,
+              "is_percent": 1,
+              "unlock_lv": 13
+            },
+            {
+              "buff_name": "Defender crossbow attack",
+              "value": 150.0,
+              "is_percent": 1,
+              "unlock_lv": 23
+            },
+            {
+              "buff_name": "Reinforce Capacity",
+              "value": 30500,
+              "is_percent": 0,
+              "unlock_lv": 33
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110053,
+              "param_1": 345
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 950
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 9200
+            }
+          ]
+        },
+        "Gold": {
+          "stats": [
+            {
+              "buff_name": "Resource gather Speed",
+              "value": 15.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Food Production",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 3
+            },
+            {
+              "buff_name": "Resource Production",
+              "value": 15.0,
+              "is_percent": 1,
+              "unlock_lv": 13
+            },
+            {
+              "buff_name": "Defender crossbow attack",
+              "value": 270.0,
+              "is_percent": 1,
+              "unlock_lv": 23
+            },
+            {
+              "buff_name": "Reinforce Capacity",
+              "value": 57500,
+              "is_percent": 0,
+              "unlock_lv": 33
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110053,
+              "param_1": 860
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 2400
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 22900
+            }
+          ]
+        },
+        "Mythic": {
+          "stats": [
+            {
+              "buff_name": "Resource gather Speed",
+              "value": 25.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Food Production",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 3
+            },
+            {
+              "buff_name": "Resource Production",
+              "value": 25.0,
+              "is_percent": 1,
+              "unlock_lv": 13
+            },
+            {
+              "buff_name": "Defender crossbow attack",
+              "value": 450.0,
+              "is_percent": 1,
+              "unlock_lv": 23
+            },
+            {
+              "buff_name": "Reinforce Capacity",
+              "value": 97500,
+              "is_percent": 0,
+              "unlock_lv": 33
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110053,
+              "param_1": 1700
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 4800
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 45800
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Serpent Priestess",
+      "id": 50200,
+      "levels": {
+        "Common": {
+          "stats": [
+            {
+              "buff_name": "Iron Mine Storage",
+              "value": 3.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Food gather Speed",
+              "value": 3.0,
+              "is_percent": 1,
+              "unlock_lv": 5
+            },
+            {
+              "buff_name": "Farm Storage",
+              "value": 3.0,
+              "is_percent": 1,
+              "unlock_lv": 15
+            },
+            {
+              "buff_name": "Defender Crossbow Damage",
+              "value": 9.0,
+              "is_percent": 1,
+              "unlock_lv": 25
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 5000,
+              "is_percent": 0,
+              "unlock_lv": 36
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110054,
+              "param_1": 10
+            }
+          ]
+        },
+        "Uncommon": {
+          "stats": [
+            {
+              "buff_name": "Iron Mine Storage",
+              "value": 7.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Food gather Speed",
+              "value": 7.0,
+              "is_percent": 1,
+              "unlock_lv": 5
+            },
+            {
+              "buff_name": "Farm Storage",
+              "value": 7.0,
+              "is_percent": 1,
+              "unlock_lv": 15
+            },
+            {
+              "buff_name": "Defender Crossbow Damage",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 25
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 7500,
+              "is_percent": 0,
+              "unlock_lv": 36
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110054,
+              "param_1": 40
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 110
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 1100
+            }
+          ]
+        },
+        "Rare": {
+          "stats": [
+            {
+              "buff_name": "Iron Mine Storage",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Food gather Speed",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 5
+            },
+            {
+              "buff_name": "Farm Storage",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 15
+            },
+            {
+              "buff_name": "Defender Crossbow Damage",
+              "value": 28.0,
+              "is_percent": 1,
+              "unlock_lv": 25
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 11500,
+              "is_percent": 0,
+              "unlock_lv": 36
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110054,
+              "param_1": 140
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 380
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 3700
+            }
+          ]
+        },
+        "Epic": {
+          "stats": [
+            {
+              "buff_name": "Iron Mine Storage",
+              "value": 35.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Food gather Speed",
+              "value": 35.0,
+              "is_percent": 1,
+              "unlock_lv": 5
+            },
+            {
+              "buff_name": "Farm Storage",
+              "value": 35.0,
+              "is_percent": 1,
+              "unlock_lv": 15
+            },
+            {
+              "buff_name": "Defender Crossbow Damage",
+              "value": 50.0,
+              "is_percent": 1,
+              "unlock_lv": 25
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 19000,
+              "is_percent": 0,
+              "unlock_lv": 36
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110054,
+              "param_1": 400
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 1100
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 10700
+            }
+          ]
+        },
+        "Gold": {
+          "stats": [
+            {
+              "buff_name": "Iron Mine Storage",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Food gather Speed",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 5
+            },
+            {
+              "buff_name": "Farm Storage",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 15
+            },
+            {
+              "buff_name": "Defender Crossbow Damage",
+              "value": 90.0,
+              "is_percent": 1,
+              "unlock_lv": 25
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 32500,
+              "is_percent": 0,
+              "unlock_lv": 36
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110054,
+              "param_1": 1000
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 2800
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 26700
+            }
+          ]
+        },
+        "Mythic": {
+          "stats": [
+            {
+              "buff_name": "Iron Mine Storage",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Food gather Speed",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 5
+            },
+            {
+              "buff_name": "Farm Storage",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 15
+            },
+            {
+              "buff_name": "Defender Crossbow Damage",
+              "value": 150.0,
+              "is_percent": 1,
+              "unlock_lv": 25
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 52500,
+              "is_percent": 0,
+              "unlock_lv": 36
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110054,
+              "param_1": 2000
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 5600
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 53400
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Sun Goddess",
+      "id": 50300,
+      "levels": {
+        "Common": {
+          "stats": [
+            {
+              "buff_name": "Iron Production",
+              "value": 3.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Resource Storage",
+              "value": 1.0,
+              "is_percent": 1,
+              "unlock_lv": 7
+            },
+            {
+              "buff_name": "Iron gather Speed",
+              "value": 3.0,
+              "is_percent": 1,
+              "unlock_lv": 17
+            },
+            {
+              "buff_name": "Catapult Loss",
+              "value": -2.0,
+              "is_percent": 1,
+              "unlock_lv": 27
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 5000,
+              "is_percent": 0,
+              "unlock_lv": 45
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110055,
+              "param_1": 10
+            }
+          ]
+        },
+        "Uncommon": {
+          "stats": [
+            {
+              "buff_name": "Iron Production",
+              "value": 7.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Resource Storage",
+              "value": 2.0,
+              "is_percent": 1,
+              "unlock_lv": 7
+            },
+            {
+              "buff_name": "Iron gather Speed",
+              "value": 7.0,
+              "is_percent": 1,
+              "unlock_lv": 17
+            },
+            {
+              "buff_name": "Catapult Loss",
+              "value": -3.0,
+              "is_percent": 1,
+              "unlock_lv": 27
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 7500,
+              "is_percent": 0,
+              "unlock_lv": 45
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110055,
+              "param_1": 40
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 110
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 1100
+            }
+          ]
+        },
+        "Rare": {
+          "stats": [
+            {
+              "buff_name": "Iron Production",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Resource Storage",
+              "value": 4.0,
+              "is_percent": 1,
+              "unlock_lv": 7
+            },
+            {
+              "buff_name": "Iron gather Speed",
+              "value": 16.0,
+              "is_percent": 1,
+              "unlock_lv": 17
+            },
+            {
+              "buff_name": "Catapult Loss",
+              "value": -5.0,
+              "is_percent": 1,
+              "unlock_lv": 27
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 11500,
+              "is_percent": 0,
+              "unlock_lv": 45
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110055,
+              "param_1": 170
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 470
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 4700
+            }
+          ]
+        },
+        "Epic": {
+          "stats": [
+            {
+              "buff_name": "Iron Production",
+              "value": 35.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Resource Storage",
+              "value": 8.0,
+              "is_percent": 1,
+              "unlock_lv": 7
+            },
+            {
+              "buff_name": "Iron gather Speed",
+              "value": 35.0,
+              "is_percent": 1,
+              "unlock_lv": 17
+            },
+            {
+              "buff_name": "Catapult Loss",
+              "value": -9.0,
+              "is_percent": 1,
+              "unlock_lv": 27
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 19000,
+              "is_percent": 0,
+              "unlock_lv": 45
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110055,
+              "param_1": 500
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 1400
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 13300
+            }
+          ]
+        },
+        "Gold": {
+          "stats": [
+            {
+              "buff_name": "Iron Production",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Resource Storage",
+              "value": 15.0,
+              "is_percent": 1,
+              "unlock_lv": 7
+            },
+            {
+              "buff_name": "Iron gather Speed",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 17
+            },
+            {
+              "buff_name": "Catapult Loss",
+              "value": -15.0,
+              "is_percent": 1,
+              "unlock_lv": 27
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 32500,
+              "is_percent": 0,
+              "unlock_lv": 45
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110055,
+              "param_1": 1300
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 3500
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 33400
+            }
+          ]
+        },
+        "Mythic": {
+          "stats": [
+            {
+              "buff_name": "Iron Production",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Resource Storage",
+              "value": 25.0,
+              "is_percent": 1,
+              "unlock_lv": 7
+            },
+            {
+              "buff_name": "Iron gather Speed",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 17
+            },
+            {
+              "buff_name": "Catapult Loss",
+              "value": -25.0,
+              "is_percent": 1,
+              "unlock_lv": 27
+            },
+            {
+              "buff_name": "Rally Capacity",
+              "value": 52500,
+              "is_percent": 0,
+              "unlock_lv": 45
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110055,
+              "param_1": 2500
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 6900
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 66700
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Queen Harpy",
+      "id": 50400,
+      "levels": {
+        "Common": {
+          "stats": [
+            {
+              "buff_name": "Siege Attack",
+              "value": 10.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Troop Health",
+              "value": 4.0,
+              "is_percent": 1,
+              "unlock_lv": 10
+            },
+            {
+              "buff_name": "Cavalry Health",
+              "value": 8.0,
+              "is_percent": 1,
+              "unlock_lv": 20
+            },
+            {
+              "buff_name": "Cavalry Defense",
+              "value": 4.0,
+              "is_percent": 1,
+              "unlock_lv": 30
+            },
+            {
+              "buff_name": "Siege Defense",
+              "value": 5.0,
+              "is_percent": 1,
+              "unlock_lv": 40
+            },
+            {
+              "buff_name": "Troop Defense",
+              "value": 2.0,
+              "is_percent": 1,
+              "unlock_lv": 50
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110056,
+              "param_1": 20
+            }
+          ]
+        },
+        "Uncommon": {
+          "stats": [
+            {
+              "buff_name": "Siege Attack",
+              "value": 25.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Troop Health",
+              "value": 9.0,
+              "is_percent": 1,
+              "unlock_lv": 10
+            },
+            {
+              "buff_name": "Cavalry Health",
+              "value": 25.0,
+              "is_percent": 1,
+              "unlock_lv": 20
+            },
+            {
+              "buff_name": "Cavalry Defense",
+              "value": 12.0,
+              "is_percent": 1,
+              "unlock_lv": 30
+            },
+            {
+              "buff_name": "Siege Defense",
+              "value": 13.0,
+              "is_percent": 1,
+              "unlock_lv": 40
+            },
+            {
+              "buff_name": "Troop Defense",
+              "value": 5.0,
+              "is_percent": 1,
+              "unlock_lv": 50
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110056,
+              "param_1": 120
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 330
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 3200
+            }
+          ]
+        },
+        "Rare": {
+          "stats": [
+            {
+              "buff_name": "Siege Attack",
+              "value": 55.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Troop Health",
+              "value": 20.0,
+              "is_percent": 1,
+              "unlock_lv": 10
+            },
+            {
+              "buff_name": "Cavalry Health",
+              "value": 50.0,
+              "is_percent": 1,
+              "unlock_lv": 20
+            },
+            {
+              "buff_name": "Cavalry Defense",
+              "value": 25.0,
+              "is_percent": 1,
+              "unlock_lv": 30
+            },
+            {
+              "buff_name": "Siege Defense",
+              "value": 30.0,
+              "is_percent": 1,
+              "unlock_lv": 40
+            },
+            {
+              "buff_name": "Troop Defense",
+              "value": 10.0,
+              "is_percent": 1,
+              "unlock_lv": 50
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110056,
+              "param_1": 400
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 1100
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 10700
+            }
+          ]
+        },
+        "Epic": {
+          "stats": [
+            {
+              "buff_name": "Siege Attack",
+              "value": 110.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Troop Health",
+              "value": 40.0,
+              "is_percent": 1,
+              "unlock_lv": 10
+            },
+            {
+              "buff_name": "Cavalry Health",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 20
+            },
+            {
+              "buff_name": "Cavalry Defense",
+              "value": 50.0,
+              "is_percent": 1,
+              "unlock_lv": 30
+            },
+            {
+              "buff_name": "Siege Defense",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 40
+            },
+            {
+              "buff_name": "Troop Defense",
+              "value": 20.0,
+              "is_percent": 1,
+              "unlock_lv": 50
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110056,
+              "param_1": 1200
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 3200
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 30500
+            }
+          ]
+        },
+        "Gold": {
+          "stats": [
+            {
+              "buff_name": "Siege Attack",
+              "value": 198.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Troop Health",
+              "value": 60.0,
+              "is_percent": 1,
+              "unlock_lv": 10
+            },
+            {
+              "buff_name": "Cavalry Health",
+              "value": 180.0,
+              "is_percent": 1,
+              "unlock_lv": 20
+            },
+            {
+              "buff_name": "Cavalry Defense",
+              "value": 90.0,
+              "is_percent": 1,
+              "unlock_lv": 30
+            },
+            {
+              "buff_name": "Siege Defense",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 40
+            },
+            {
+              "buff_name": "Troop Defense",
+              "value": 30.0,
+              "is_percent": 1,
+              "unlock_lv": 50
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110056,
+              "param_1": 2900
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 7900
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 76300
+            }
+          ]
+        },
+        "Mythic": {
+          "stats": [
+            {
+              "buff_name": "Siege Attack",
+              "value": 330.0,
+              "is_percent": 1,
+              "unlock_lv": 1
+            },
+            {
+              "buff_name": "Troop Health",
+              "value": 100.0,
+              "is_percent": 1,
+              "unlock_lv": 10
+            },
+            {
+              "buff_name": "Cavalry Health",
+              "value": 300.0,
+              "is_percent": 1,
+              "unlock_lv": 20
+            },
+            {
+              "buff_name": "Cavalry Defense",
+              "value": 150.0,
+              "is_percent": 1,
+              "unlock_lv": 30
+            },
+            {
+              "buff_name": "Siege Defense",
+              "value": 170.0,
+              "is_percent": 1,
+              "unlock_lv": 40
+            },
+            {
+              "buff_name": "Troop Defense",
+              "value": 50.0,
+              "is_percent": 1,
+              "unlock_lv": 50
+            }
+          ],
+          "costs": [
+            {
+              "param_0": 4110056,
+              "param_1": 5800
+            },
+            {
+              "param_0": 4110027,
+              "param_1": 15900
+            },
+            {
+              "param_0": 4110028,
+              "param_1": 152500
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
