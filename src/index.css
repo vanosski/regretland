@@ -457,7 +457,13 @@ tfoot td { background: rgba(34,211,238,0.06); font-weight: 700; border-top: 1px 
    RESPONSIVE
    ============================================================ */
 @media (max-width: 768px) {
-  html { font-size: 14px; } /* Scale down all text slightly on mobile */
+  html { 
+    font-size: 9.5px; /* Aggressively scale down all rem-based units (~40% zoom out) */ 
+  } 
+
+  body {
+    zoom: 0.8; /* Additional zoom out for fixed pixel elements */
+  }
 
   .navbar-inner { 
     flex-direction: column; 
