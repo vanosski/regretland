@@ -421,6 +421,8 @@ tfoot td { background: rgba(34,211,238,0.06); font-weight: 700; border-top: 1px 
    RESPONSIVE
    ============================================================ */
 @media (max-width: 768px) {
+  html { font-size: 14px; } /* Scale down all text slightly on mobile */
+
   .navbar-inner { 
     flex-direction: column; 
     height: auto; 
@@ -447,9 +449,9 @@ tfoot td { background: rgba(34,211,238,0.06); font-weight: 700; border-top: 1px 
   .tools-grid { grid-template-columns: 1fr; }
   
   /* Scale down table for mobile */
-  .gacha-table th { padding: 0.8rem 0.5rem; font-size: 0.8rem; letter-spacing: 1px; }
-  .gacha-table td { padding: 0.8rem 0.5rem; font-size: 0.9rem; }
-  .calc-input { width: 50px; height: 36px; font-size: 1rem; }
+  .gacha-table th { padding: 0.6rem 0.4rem; font-size: 0.75rem; letter-spacing: 0px; }
+  .gacha-table td { padding: 0.6rem 0.4rem; font-size: 0.8rem; }
+  .calc-input { width: 45px; height: 32px; font-size: 0.9rem; padding: 0.2rem; }
   
   /* Mobile optimized horizontal scrolling for tabs */
   .tabs, .blessing-tabs, .beauty-tabs {
@@ -461,13 +463,18 @@ tfoot td { background: rgba(34,211,238,0.06); font-weight: 700; border-top: 1px 
     margin: 0 0.5rem 1.5rem;
   }
   
-  /* Make sure any data tables scroll instead of squishing */
-  .calc-table-wrapper {
-    overflow-x: auto;
+  /* Make sure any data tables scroll instead of squishing or breaking bounds */
+  .calc-table-wrapper, .table-responsive, .table-container {
+    overflow-x: auto !important;
     -webkit-overflow-scrolling: touch;
     margin-bottom: 1rem;
-    border-radius: 0;
-    border-left: none;
-    border-right: none;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 100vw;
+  }
+
+  /* Force table cells to not squish too small so scrolling kicks in */
+  .data-table th, .data-table td, table th, table td {
+    white-space: nowrap;
   }
 }
