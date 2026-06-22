@@ -463,7 +463,11 @@ tfoot td { background: rgba(34,211,238,0.06); font-weight: 700; border-top: 1px 
   } 
 
   body {
-    zoom: 0.8; /* Additional zoom out for fixed pixel elements */
+    zoom: 0.85; /* Additional zoom out for fixed pixel elements (slightly larger than before) */
+  }
+
+  .navbar {
+    zoom: 1.2; /* Make the navigation header 20% larger on mobile */
   }
 
   .navbar-inner { 
@@ -490,6 +494,10 @@ tfoot td { background: rgba(34,211,238,0.06); font-weight: 700; border-top: 1px 
   .form-grid-3, .form-grid-2 { grid-template-columns: 1fr; }
   .main-content { padding: 120px 0.5rem 2rem; } /* Less padding on sides */
   .tools-grid { grid-template-columns: 1fr; }
+
+  .chart-container {
+    min-height: 450px; /* Increase graph vertical size on phone */
+  }
   
   /* Scale down table for mobile */
   .gacha-table th { padding: 0.6rem 0.4rem; font-size: 0.75rem; letter-spacing: 0px; }
