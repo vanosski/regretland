@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { Wand2, Sparkles, Gem, Swords } from 'lucide-react';
+import { Wand2, Sparkles, Gem, Swords, Droplet } from 'lucide-react';
 import './Home.css';
 
 const TOOLS = [
@@ -39,6 +39,15 @@ const TOOLS = [
     border: '1px solid rgba(251,191,36,0.4)',
     bgStyle: 'radial-gradient(circle at bottom left, rgba(251,191,36,0.15) 0%, transparent 50%), linear-gradient(135deg, rgba(10,12,28,0.9) 0%, rgba(28,12,12,0.9) 100%)',
     icon: <Swords size={28} />
+  },
+  {
+    title: 'Echo Upgrades',
+    to: '/echo',
+    color: '#10b981',
+    glow: 'rgba(16,185,129,0.8)',
+    border: '1px solid rgba(16,185,129,0.4)',
+    bgStyle: 'radial-gradient(circle at center, rgba(16,185,129,0.15) 0%, transparent 50%), linear-gradient(135deg, rgba(10,12,28,0.9) 0%, rgba(12,28,20,0.9) 100%)',
+    icon: <Droplet size={28} />
   },
 ];
 

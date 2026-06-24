@@ -1,11 +1,12 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route, NavLink, Link } from 'react-router-dom';
 import Home         from './pages/Home';
 import BeautyPage   from './pages/BeautyPage';
 import BlessingPage from './pages/BlessingPage';
 import GemsPage     from './pages/GemsPage';
+import EchoPage    from './pages/EchoPage';
 import GloryPage    from './pages/GloryPage';
-import { Wand2, Sparkles, Gem, Swords } from 'lucide-react';
+import { Wand2, Sparkles, Gem, Swords, Droplet, Menu, X } from 'lucide-react';
 import './index.css';
 
 import { useLocation } from 'react-router-dom';
@@ -19,6 +20,8 @@ const ScrollToTop = () => {
 };
 
 function App() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   // Ambient Cyberpunk Lightning Strikes
   useEffect(() => {
     const interval = setInterval(() => {
@@ -56,22 +59,30 @@ function App() {
       <div className="page-wrapper">
         <nav className="navbar">
           <div className="navbar-inner">
-            <Link to="/" className="logo-link">
+            <Link to="/" className="logo-link" onClick={() => setIsMenuOpen(false)}>
               <span className="logo-dept">DEPARTMENT OF</span>
               <span className="logo-regret"> REGRET</span>
             </Link>
-            <div className="nav-links" style={{ display: 'flex', alignItems: 'center' }}>
-              <NavLink to="/beauty" className={({ isActive }) => 'nav-link' + (isActive ? ' active' : '')} style={{display:'flex', alignItems:'center', gap:'6px'}}>
+
+            <button className="menu-toggle" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+              {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
+            </button>
+
+            <div className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
+              <NavLink to="/beauty" onClick={() => setIsMenuOpen(false)} className={({ isActive }) => 'nav-link' + (isActive ? ' active' : '')} style={{display:'flex', alignItems:'center', gap:'6px'}}>
                 <Wand2 size={16} /> Beauty
               </NavLink>
-              <NavLink to="/blessing" className={({ isActive }) => 'nav-link' + (isActive ? ' active' : '')} style={{display:'flex', alignItems:'center', gap:'6px'}}>
+              <NavLink to="/blessing" onClick={() => setIsMenuOpen(false)} className={({ isActive }) => 'nav-link' + (isActive ? ' active' : '')} style={{display:'flex', alignItems:'center', gap:'6px'}}>
                 <Sparkles size={16} /> Blessing
               </NavLink>
-              <NavLink to="/gems" className={({ isActive }) => 'nav-link' + (isActive ? ' active' : '')} style={{display:'flex', alignItems:'center', gap:'6px'}}>
+              <NavLink to="/gems" onClick={() => setIsMenuOpen(false)} className={({ isActive }) => 'nav-link' + (isActive ? ' active' : '')} style={{display:'flex', alignItems:'center', gap:'6px'}}>
                 <Gem size={16} /> Gems
               </NavLink>
-              <NavLink to="/glory" className={({ isActive }) => 'nav-link' + (isActive ? ' active' : '')} style={{display:'flex', alignItems:'center', gap:'6px'}}>
+              <NavLink to="/glory" onClick={() => setIsMenuOpen(false)} className={({ isActive }) => 'nav-link' + (isActive ? ' active' : '')} style={{display:'flex', alignItems:'center', gap:'6px'}}>
                 <Swords size={16} /> Glory
+              </NavLink>
+              <NavLink to="/echo" onClick={() => setIsMenuOpen(false)} className={({ isActive }) => 'nav-link' + (isActive ? ' active' : '')} style={{display:'flex', alignItems:'center', gap:'6px'}}>
+                <Droplet size={16} /> Echo
               </NavLink>
             </div>
           </div>
@@ -84,6 +95,7 @@ function App() {
             <Route path="/blessing"  element={<BlessingPage />} />
             <Route path="/gems"      element={<GemsPage />} />
             <Route path="/glory"     element={<GloryPage />} />
+            <Route path="/echo"      element={<EchoPage />} />
           </Routes>
         </main>
 
