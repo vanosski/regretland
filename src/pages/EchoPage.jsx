@@ -5,7 +5,8 @@ import { echoData } from '../data/echoData';
 const EchoPage = () => {
   useEffect(() => {
     document.body.style.backgroundImage = `
-        linear-gradient(to bottom, rgba(8,11,20,0.60) 0%, rgba(8,11,20,0.85) 50%, rgba(8,11,20,0.98) 100%)
+        linear-gradient(to bottom, rgba(8,11,20,0.60) 0%, rgba(8,11,20,0.85) 50%, rgba(8,11,20,0.98) 100%),
+        url('/echo_banner.png')
     `;
     document.body.style.backgroundSize = 'cover';
     document.body.style.backgroundPosition = 'center top';
@@ -38,10 +39,12 @@ const EchoPage = () => {
         padding: '2rem', 
         maxWidth: '1100px', 
         margin: '0 auto', 
-        backgroundColor: '#0A0C10', 
+        background: 'rgba(0, 0, 0, 0.45)', 
+        backdropFilter: 'blur(12px)',
+        WebkitBackdropFilter: 'blur(12px)',
         borderRadius: '12px',
-        border: '1px solid rgba(255,255,255,0.05)',
-        boxShadow: '0 8px 32px rgba(0,0,0,0.4)'
+        border: '1px solid rgba(255,255,255,0.08)',
+        boxShadow: '0 8px 32px rgba(0,0,0,0.5)'
       }}>
         
         {/* Dropdown */}
