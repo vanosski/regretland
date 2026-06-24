@@ -25,7 +25,7 @@ const GloryPage = () => {
   useEffect(() => {
     document.body.style.backgroundImage = `
       linear-gradient(to bottom, rgba(8,11,20,0.55) 0%, rgba(8,11,20,0.80) 55%, rgba(8,11,20,0.97) 100%),
-      url('/glory_banner.jpg')
+      url('/glory_banner.webp')
     `;
     document.body.style.backgroundSize = 'cover';
     document.body.style.backgroundPosition = 'center top';
