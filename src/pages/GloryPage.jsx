@@ -42,6 +42,7 @@ const GloryPage = () => {
   const [rows, setRows] = useState(keys.map(k => ({ key: k, level: 0, star: 0 })));
   const [strategy, setStrategy] = useState('attack');
   const [protWeight, setProtWeight] = useState(50);
+  const [gloryBalance, setGloryBalance] = useState('');
 
   const update = (i, field, raw) => {
     let v = parseInt(raw) || 0;
@@ -68,12 +69,12 @@ const GloryPage = () => {
   const maximize = () => setRows(rows.map(r => ({ ...r, level: 50 })));
 
   const autoDistributeStars = () => {
-    const totalBudget = rows.reduce((acc, r) => {
+    const currentTotalCost = rows.reduce((acc, r) => {
       const c = calcRow(r.key, r.level, r.star);
       return acc + c.totalCost;
     }, 0);
 
-    let budget = totalBudget;
+    let budget = Number(gloryBalance) > 0 ? Number(gloryBalance) : currentTotalCost;
     
     const initialRows = rows.map(r => {
       const u = unitData[r.key];
@@ -202,6 +203,8 @@ const GloryPage = () => {
     return acc;
   }, { stat: 0, cost: 0, prot: 0, attack: 0 });
 
+  const balance = (Number(gloryBalance) || 0) - totals.cost;
+
   return (
     <div className="calc-page fade-in-up" style={{ maxWidth: '1200px', margin: '0 auto' }}>
       <div>
@@ -213,15 +216,30 @@ const GloryPage = () => {
           
           {/* Controls - Moved to Top */}
           <div className="glory-controls" style={{ padding: '1rem', background: 'rgba(0,0,0,0.2)', borderRadius: '8px', marginBottom: '1.5rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '1rem' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem', flexWrap: 'wrap' }}>
               <button className="btn-secondary" onClick={clear}>Clear All</button>
-              <div style={{ display: 'flex', flexDirection: 'column' }}>
-                <span style={{ fontSize: '0.7rem', textTransform: 'uppercase', letterSpacing: '1px', color: 'var(--muted)' }}>Current Total Glory</span>
-                <span className="text-gold" style={{ fontSize: '1.2rem', fontWeight: 'bold' }}>{totals.cost.toLocaleString()}</span>
+              
+              <div className="field-group" style={{ flexDirection: 'row', alignItems: 'center', gap: '0.75rem' }}>
+                <label className="field-label" style={{ fontSize: '0.75rem', margin: 0 }}>Your Glory Balance</label>
+                <input
+                  className="field-input"
+                  type="number"
+                  placeholder="0"
+                  value={gloryBalance}
+                  onChange={e => setGloryBalance(e.target.value)}
+                  style={{ width: '140px', padding: '0.5rem 0.75rem' }}
+                />
+              </div>
+
+              <div style={{ display: 'flex', flexDirection: 'column', minWidth: '100px' }}>
+                <span style={{ fontSize: '0.7rem', textTransform: 'uppercase', letterSpacing: '1px', color: 'var(--text-muted)' }}>Left Over / Short</span>
+                <span className={balance < 0 ? 'text-red' : 'text-green'} style={{ fontSize: '1.2rem', fontWeight: 'bold' }}>
+                  {balance.toLocaleString()}
+                </span>
               </div>
             </div>
             
-            <div style={{ display: 'flex', gap: '1rem', alignItems: 'center', flexWrap: 'wrap' }}>
+            <div style={{ display: 'flex', gap: '1rem', alignItems: 'center', flexWrap: 'wrap', marginTop: '0.5rem' }}>
               <select 
                 className="field-select" 
                 value={strategy} 
