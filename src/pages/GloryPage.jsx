@@ -138,7 +138,7 @@ const GloryPage = () => {
             }
 
             let primaryScore = 0;
-            let secondaryScore = 0; // Raw efficiency fallback
+            let secondaryScore = (statGainAttack + statGainProt) / cost; // Raw efficiency fallback
 
             if (strategy === 'attack') {
               primaryScore = statGainAttack / cost;
@@ -156,9 +156,6 @@ const GloryPage = () => {
               } else {
                 primaryScore = statGainProt / cost;
               }
-              
-              // Fallback score in case we run out of units that give the stat we need
-              secondaryScore = (statGainAttack + statGainProt) / cost;
             }
 
             if (primaryScore > 0 && primaryScore > bestScore) {
@@ -179,9 +176,9 @@ const GloryPage = () => {
         const nextStarIndex = currentRows[bestUnitIndex].star;
         budget -= u.star_cost[nextStarIndex];
         currentRows[bestUnitIndex].star += 1;
-      } else if (strategy === 'custom' && fallbackUnitIndex !== -1) {
-        // We ran out of upgrades for the specific stat we needed to fix the ratio, 
-        // but we still have budget, so just buy the most efficient upgrade left.
+      } else if (fallbackUnitIndex !== -1) {
+        // We ran out of primary stat upgrades, but we still have budget,
+        // so fall back to buying the most efficient overall upgrade left.
         const u = unitData[currentRows[fallbackUnitIndex].key];
         const nextStarIndex = currentRows[fallbackUnitIndex].star;
         budget -= u.star_cost[nextStarIndex];
