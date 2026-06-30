@@ -6,7 +6,8 @@ import BlessingPage from './pages/BlessingPage';
 import GemsPage     from './pages/GemsPage';
 import EchoPage    from './pages/EchoPage';
 import GloryPage    from './pages/GloryPage';
-import { Wand2, Sparkles, Gem, Swords, Droplet, Menu, X } from 'lucide-react';
+import CeremonyPage from './pages/CeremonyPage';
+import { Wand2, Sparkles, Gem, Swords, Droplet, Crown, Menu, X } from 'lucide-react';
 import './index.css';
 
 import { useLocation } from 'react-router-dom';
@@ -84,6 +85,9 @@ function App() {
               <NavLink to="/echo" onClick={() => setIsMenuOpen(false)} className={({ isActive }) => 'nav-link' + (isActive ? ' active' : '')} style={{display:'flex', alignItems:'center', gap:'6px'}}>
                 <Droplet size={16} /> Echo
               </NavLink>
+              <NavLink to="/ceremony" onClick={() => setIsMenuOpen(false)} className={({ isActive }) => 'nav-link' + (isActive ? ' active' : '')} style={{display:'flex', alignItems:'center', gap:'6px'}}>
+                <Crown size={16} /> Ceremony
+              </NavLink>
             </div>
           </div>
         </nav>
@@ -96,6 +100,7 @@ function App() {
             <Route path="/gems"      element={<GemsPage />} />
             <Route path="/glory"     element={<GloryPage />} />
             <Route path="/echo"      element={<EchoPage />} />
+            <Route path="/ceremony"  element={<CeremonyPage />} />
           </Routes>
         </main>
 

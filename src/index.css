@@ -93,8 +93,9 @@ input, select, textarea { font-family: var(--font-body); }
    ============================================================ */
 .navbar {
   position: fixed; top: 0; left: 0; right: 0;
-  background: var(--nav-bg) url('/header_bg.webp');
-  background-size: cover;
+  background: var(--nav-bg) url('/navbar_pattern.png');
+  background-size: 250px;
+  background-repeat: repeat;
   background-position: center;
   backdrop-filter: var(--glass-blur);
   border-bottom: 1px solid var(--glass-border);
@@ -497,8 +498,8 @@ tfoot td { background: rgba(34,211,238,0.06); font-weight: 700; border-top: 1px 
     position: absolute;
     top: 100%;
     left: 0;
-    background: var(--nav-bg);
-    backdrop-filter: var(--glass-blur);
+    background: rgba(8, 11, 20, 0.98);
+    backdrop-filter: blur(16px);
     border-top: 1px solid var(--glass-border);
     padding: 1rem;
     gap: 0.5rem;

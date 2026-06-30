@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { Wand2, Sparkles, Gem, Swords, Droplet } from 'lucide-react';
+import { Wand2, Sparkles, Gem, Swords, Droplet, Crown } from 'lucide-react';
 import './Home.css';
 
 const TOOLS = [
@@ -48,6 +48,15 @@ const TOOLS = [
     border: '1px solid rgba(16,185,129,0.4)',
     bgStyle: 'radial-gradient(circle at center, rgba(16,185,129,0.15) 0%, transparent 50%), linear-gradient(135deg, rgba(10,12,28,0.9) 0%, rgba(12,28,20,0.9) 100%)',
     icon: <Droplet size={28} />
+  },
+  {
+    title: 'Ceremony Planner',
+    to: '/ceremony',
+    color: '#f97316',
+    glow: 'rgba(249,115,22,0.8)',
+    border: '1px solid rgba(249,115,22,0.4)',
+    bgStyle: 'radial-gradient(circle at center right, rgba(249,115,22,0.15) 0%, transparent 50%), linear-gradient(135deg, rgba(10,12,28,0.9) 0%, rgba(28,18,12,0.9) 100%)',
+    icon: <Crown size={28} />
   },
 ];
 
