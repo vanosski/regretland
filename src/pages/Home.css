@@ -69,14 +69,19 @@
 }
 
 .home-eyebrow {
-  font-family: 'Rajdhani', sans-serif;
-  font-size: 1rem;
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.95rem;
   font-weight: 700;
-  letter-spacing: 6px;
+  letter-spacing: 5px;
   text-transform: uppercase;
-  color: rgba(244, 114, 182, 0.8);
-  text-shadow: 0 0 15px rgba(244, 114, 182, 0.5);
+  color: rgba(255, 109, 203, 0.9);
+  text-shadow: 0 0 20px rgba(255, 109, 203, 0.6);
   animation: fadeInUp 0.6s ease forwards;
+  background: linear-gradient(90deg, #ff6dcb, #e879f9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: drop-shadow(0 0 10px rgba(255, 109, 203, 0.4));
 }
 
 .home-title {
@@ -97,17 +102,22 @@
 }
 
 .home-title-regret {
-  background: linear-gradient(135deg, #fb7185, #f472b6, #c084fc);
+  background: linear-gradient(135deg, #ff6dcb, #f472b6, #e879f9, #a78bfa);
+  background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  filter: drop-shadow(0 0 25px rgba(244,114,182,0.6));
-  animation: titlePulse 3s ease-in-out infinite;
+  animation: titlePulse 3s ease-in-out infinite, shimmerTitle 4s linear infinite;
+}
+
+@keyframes shimmerTitle {
+  0% { background-position: 0% center; }
+  100% { background-position: 200% center; }
 }
 
 @keyframes titlePulse {
-  0%, 100% { filter: drop-shadow(0 0 20px rgba(244,114,182,0.5)); }
-  50%       { filter: drop-shadow(0 0 45px rgba(244,114,182,0.9)); }
+  0%, 100% { filter: drop-shadow(0 0 20px rgba(255,109,203,0.5)); }
+  50%       { filter: drop-shadow(0 0 50px rgba(255,109,203,0.95)) drop-shadow(0 0 80px rgba(232,121,249,0.4)); }
 }
 
 .home-tagline {
@@ -175,12 +185,12 @@
 
 .home-section-label {
   text-align: left;
-  font-family: 'Rajdhani', sans-serif;
-  font-size: 0.9rem;
-  letter-spacing: 6px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 8px;
   text-transform: uppercase;
-  color: rgba(160, 160, 200, 0.5);
-  margin-bottom: 2rem;
+  color: rgba(255, 109, 203, 0.5);
+  margin-bottom: 1.5rem;
   margin-left: 0.5rem;
 }
 
@@ -194,13 +204,13 @@
 .home-tool-banner {
   position: relative;
   display: flex;
-  height: 100px;
-  border-radius: 12px;
+  height: 90px;
+  border-radius: 16px;
   text-decoration: none;
   overflow: hidden;
   transition: all 0.35s cubic-bezier(0.22, 1, 0.36, 1);
-  box-shadow: 0 8px 32px rgba(0,0,0,0.6);
-  backdrop-filter: blur(10px);
+  box-shadow: 0 6px 24px rgba(0,0,0,0.5);
+  backdrop-filter: blur(12px);
 }
 
 .htb-content {
@@ -259,17 +269,36 @@
 .home-tool-banner:hover .htb-glow { opacity: 0.15; }
 
 .htb-title {
-  font-family: 'Rajdhani', sans-serif;
-  font-size: 1.6rem;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.4rem;
   font-weight: 700;
   color: #ffffff;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.8);
-  transition: transform 0.3s;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.8);
+  transition: transform 0.3s, text-shadow 0.3s;
 }
 .home-tool-banner:hover .htb-title {
-  transform: translateX(8px);
+  transform: translateX(10px);
+  text-shadow: 0 0 15px var(--card-color), 0 2px 10px rgba(0,0,0,0.8);
+}
+
+/* Cute arrow indicator */
+.htb-arrow {
+  margin-left: auto;
+  color: var(--card-color);
+  opacity: 0;
+  transform: translateX(-8px);
+  transition: opacity 0.3s, transform 0.3s;
+  font-size: 1.4rem;
+  padding-right: 1.5rem;
+  display: flex;
+  align-items: center;
+  text-shadow: 0 0 12px var(--card-color);
+}
+.home-tool-banner:hover .htb-arrow {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 /* ============================================================

@@ -6,7 +6,7 @@ import '../index.css';
 const CeremonyPage = () => {
   useEffect(() => {
     document.body.style.backgroundImage = `
-        linear-gradient(to bottom, rgba(8,11,20,0.60) 0%, rgba(8,11,20,0.85) 50%, rgba(8,11,20,0.98) 100%),
+        linear-gradient(to bottom, rgba(8,11,20,0.78) 0%, rgba(8,11,20,0.92) 50%, rgba(8,11,20,0.99) 100%),
         url('/ceremony_banner.png')
     `;
     document.body.style.backgroundSize = 'cover';
@@ -127,6 +127,30 @@ const CeremonyPage = () => {
       if (earnedChests.has(c.id)) dayTotal += c.drops;
     });
 
+    const activeTasks = tasks.filter(t => !t.is_passive);
+    const passiveTasks = tasks.filter(t => t.is_passive);
+
+    const renderTaskRow = (t) => (
+      <div key={t.id} 
+           onClick={() => toggleItem(t.id)}
+           style={{
+             display: 'flex', alignItems: 'center', padding: '1rem',
+             background: selectedItems.has(t.id) ? 'rgba(34, 211, 238, 0.18)' : 'rgba(255,255,255,0.09)',
+             border: `1px solid ${selectedItems.has(t.id) ? 'rgba(34, 211, 238, 0.4)' : 'rgba(255,255,255,0.18)'}`,
+             borderRadius: '8px', cursor: 'pointer', transition: 'all 0.2s'
+           }}>
+        <div style={{ marginRight: '1rem', color: selectedItems.has(t.id) ? '#22d3ee' : '#6b7280' }}>
+          {selectedItems.has(t.id) ? <CheckCircle2 size={24} /> : <Circle size={24} />}
+        </div>
+        <div style={{ flex: 1 }}>
+          <p style={{ margin: 0, color: '#fff', fontSize: '0.95rem' }}>{t.desc}</p>
+        </div>
+        <div style={{ color: '#10b981', fontWeight: 600, fontSize: '0.95rem' }}>
+          +{t.drops} Drops
+        </div>
+      </div>
+    );
+
     return (
       <div className="task-list" style={{ marginTop: '1.5rem', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', paddingBottom: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>
@@ -134,26 +158,16 @@ const CeremonyPage = () => {
           <span style={{ fontSize: '1.25rem', color: '#10b981', fontWeight: 700 }}>{dayTotal} Drops</span>
         </div>
         
-        {tasks.map(t => (
-          <div key={t.id} 
-               onClick={() => toggleItem(t.id)}
-               style={{
-                 display: 'flex', alignItems: 'center', padding: '1rem',
-                 background: selectedItems.has(t.id) ? 'rgba(34, 211, 238, 0.1)' : 'rgba(255,255,255,0.03)',
-                 border: `1px solid ${selectedItems.has(t.id) ? 'rgba(34, 211, 238, 0.3)' : 'rgba(255,255,255,0.1)'}`,
-                 borderRadius: '8px', cursor: 'pointer', transition: 'all 0.2s'
-               }}>
-            <div style={{ marginRight: '1rem', color: selectedItems.has(t.id) ? '#22d3ee' : '#6b7280' }}>
-              {selectedItems.has(t.id) ? <CheckCircle2 size={24} /> : <Circle size={24} />}
+        {activeTasks.map(renderTaskRow)}
+
+        {passiveTasks.length > 0 && (
+          <>
+            <div style={{ margin: '1.5rem 0 0.5rem', color: '#9ca3af', textTransform: 'uppercase', fontSize: '0.8rem', letterSpacing: '1px', fontWeight: 600 }}>
+              Passive / Extra Tasks
             </div>
-            <div style={{ flex: 1 }}>
-              <p style={{ margin: 0, color: '#fff', fontSize: '0.95rem' }}>{t.desc}</p>
-            </div>
-            <div style={{ color: '#10b981', fontWeight: 600, fontSize: '0.95rem' }}>
-              +{t.drops} Drops
-            </div>
-          </div>
-        ))}
+            {passiveTasks.map(renderTaskRow)}
+          </>
+        )}
 
         {chests.length > 0 && (
           <>
@@ -166,9 +180,9 @@ const CeremonyPage = () => {
                 <div key={c.id} 
                      style={{
                        display: 'flex', alignItems: 'center', padding: '1rem',
-                       background: isEarned ? 'rgba(251, 191, 36, 0.1)' : 'rgba(255,255,255,0.03)',
-                       border: `1px solid ${isEarned ? 'rgba(251, 191, 36, 0.3)' : 'rgba(255,255,255,0.1)'}`,
-                       borderRadius: '8px', opacity: isEarned ? 1 : 0.6
+                       background: isEarned ? 'rgba(251, 191, 36, 0.18)' : 'rgba(255,255,255,0.09)',
+                       border: `1px solid ${isEarned ? 'rgba(251, 191, 36, 0.4)' : 'rgba(255,255,255,0.18)'}`,
+                       borderRadius: '8px', opacity: isEarned ? 1 : 0.7
                      }}>
                   <div style={{ marginRight: '1rem', color: isEarned ? '#fbbf24' : '#6b7280' }}>
                     {isEarned ? <CheckCircle2 size={24} /> : <Circle size={24} />}
@@ -202,7 +216,7 @@ const CeremonyPage = () => {
     return (
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(350px, 1fr))', gap: '1.5rem', marginTop: '1.5rem' }}>
         {categories.map(cat => (
-          <div key={cat} style={{ background: 'rgba(0,0,0,0.3)', padding: '1.5rem', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.05)' }}>
+          <div key={cat} style={{ background: 'rgba(6, 8, 20, 0.75)', padding: '1.5rem', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.14)' }}>
             <h3 style={{ fontSize: '1.1rem', color: '#22d3ee', marginBottom: '1rem', borderBottom: '1px solid rgba(255,255,255,0.1)', paddingBottom: '0.5rem' }}>{cat}</h3>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
               {plannerData.milestone_tasks[cat].map(t => (
@@ -210,8 +224,8 @@ const CeremonyPage = () => {
                      onClick={() => toggleItem(t.id)}
                      style={{
                        display: 'flex', alignItems: 'flex-start', padding: '0.75rem',
-                       background: selectedItems.has(t.id) ? 'rgba(34, 211, 238, 0.1)' : 'rgba(255,255,255,0.03)',
-                       border: `1px solid ${selectedItems.has(t.id) ? 'rgba(34, 211, 238, 0.3)' : 'rgba(255,255,255,0.1)'}`,
+                       background: selectedItems.has(t.id) ? 'rgba(34, 211, 238, 0.18)' : 'rgba(255,255,255,0.09)',
+                       border: `1px solid ${selectedItems.has(t.id) ? 'rgba(34, 211, 238, 0.4)' : 'rgba(255,255,255,0.18)'}`,
                        borderRadius: '8px', cursor: 'pointer', transition: 'all 0.2s'
                      }}>
                   <div style={{ marginRight: '0.75rem', marginTop: '2px', color: selectedItems.has(t.id) ? '#22d3ee' : '#6b7280' }}>
@@ -249,12 +263,12 @@ const CeremonyPage = () => {
         <div className="card" style={{ 
           flex: '1 1 350px',
           padding: '2rem', 
-          background: 'rgba(0, 0, 0, 0.45)', 
-          backdropFilter: 'blur(12px)',
-          WebkitBackdropFilter: 'blur(12px)',
+          background: 'rgba(6, 8, 20, 0.82)', 
+          backdropFilter: 'blur(20px)',
+          WebkitBackdropFilter: 'blur(20px)',
           borderRadius: '12px',
-          border: '1px solid rgba(255,255,255,0.08)',
-          boxShadow: '0 8px 32px rgba(0,0,0,0.5)',
+          border: '1px solid rgba(255,255,255,0.14)',
+          boxShadow: '0 8px 32px rgba(0,0,0,0.7)',
           position: 'sticky',
           top: '100px'
         }}>
@@ -278,15 +292,15 @@ const CeremonyPage = () => {
           </div>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', marginBottom: '2rem' }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1rem', background: 'rgba(255,255,255,0.03)', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.05)' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1rem', background: 'rgba(255,255,255,0.09)', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.14)' }}>
               <span style={{ color: '#d1d5db', fontSize: '0.95rem' }}>Tasks & Chest Drops</span>
               <span style={{ color: '#22d3ee', fontSize: '1.2rem', fontWeight: 700 }}>{totalDrops.toLocaleString()}</span>
             </div>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1rem', background: 'rgba(255,255,255,0.03)', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.05)' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1rem', background: 'rgba(255,255,255,0.09)', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.14)' }}>
               <span style={{ color: '#d1d5db', fontSize: '0.95rem' }}>Missing Drops</span>
               <span style={{ color: missingDrops === 0 ? '#10b981' : '#f59e0b', fontSize: '1.2rem', fontWeight: 700 }}>{missingDrops.toLocaleString()}</span>
             </div>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1rem', background: 'linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(16, 185, 129, 0.05))', borderRadius: '8px', border: '1px solid rgba(16, 185, 129, 0.3)' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1rem', background: 'linear-gradient(135deg, rgba(16, 185, 129, 0.18), rgba(16, 185, 129, 0.1))', borderRadius: '8px', border: '1px solid rgba(16, 185, 129, 0.4)' }}>
               <span style={{ color: '#10b981', fontSize: '0.95rem', fontWeight: 600 }}>Daily Monster Drops</span>
               <span style={{ color: '#10b981', fontSize: '1.4rem', fontWeight: 800 }}>{dailyMonsterDrops.toLocaleString()}</span>
             </div>
@@ -295,7 +309,7 @@ const CeremonyPage = () => {
           {goal >= 6600 && (
             <div 
               onClick={() => setBuffEnabled(!buffEnabled)}
-              style={{ display: 'flex', alignItems: 'center', padding: '1rem', background: buffEnabled ? 'rgba(167, 139, 250, 0.1)' : 'rgba(255,255,255,0.03)', border: `1px solid ${buffEnabled ? 'rgba(167, 139, 250, 0.3)' : 'rgba(255,255,255,0.1)'}`, borderRadius: '8px', cursor: 'pointer', marginBottom: '2rem', transition: 'all 0.2s' }}
+              style={{ display: 'flex', alignItems: 'center', padding: '1rem', background: buffEnabled ? 'rgba(167, 139, 250, 0.18)' : 'rgba(255,255,255,0.09)', border: `1px solid ${buffEnabled ? 'rgba(167, 139, 250, 0.4)' : 'rgba(255,255,255,0.14)'}`, borderRadius: '8px', cursor: 'pointer', marginBottom: '2rem', transition: 'all 0.2s' }}
             >
               <div style={{ marginRight: '1rem', color: buffEnabled ? '#a78bfa' : '#6b7280' }}>
                 {buffEnabled ? <CheckCircle2 size={24} /> : <Circle size={24} />}
@@ -326,12 +340,12 @@ const CeremonyPage = () => {
         <div className="card" style={{ 
           flex: '3 1 600px',
           padding: '2rem', 
-          background: 'rgba(0, 0, 0, 0.45)', 
-          backdropFilter: 'blur(12px)',
-          WebkitBackdropFilter: 'blur(12px)',
+          background: 'rgba(6, 8, 20, 0.82)', 
+          backdropFilter: 'blur(20px)',
+          WebkitBackdropFilter: 'blur(20px)',
           borderRadius: '12px',
-          border: '1px solid rgba(255,255,255,0.08)',
-          boxShadow: '0 8px 32px rgba(0,0,0,0.5)',
+          border: '1px solid rgba(255,255,255,0.14)',
+          boxShadow: '0 8px 32px rgba(0,0,0,0.7)',
           minHeight: '600px'
         }}>
           

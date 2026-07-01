@@ -59,18 +59,26 @@ const BlessingPage = () => {
             labels: currentData.map(d => `Lv ${d.global_lv}`),
             datasets: [
                 {
-                    label: 'Cumulative Cost',
-                    data: currentData.map(d => d.cum_cost),
+                    label: 'Upgrade Cost',
+                    data: currentData.map(d => d.cost),
                     borderColor: '#3b82f6',
                     backgroundColor: 'rgba(59, 130, 246, 0.1)',
                     yAxisID: 'y',
                     tension: 0.4
                 },
                 {
-                    label: 'Global Stat %',
-                    data: currentData.map(d => d.global_stat),
-                    borderColor: '#8b5cf6',
-                    backgroundColor: 'rgba(139, 92, 246, 0.1)',
+                    label: 'Sage / 1%',
+                    data: currentData.map(d => d.efficiency),
+                    borderColor: '#e879f9',
+                    backgroundColor: 'rgba(232, 121, 249, 0.05)',
+                    yAxisID: 'y',
+                    tension: 0.4
+                },
+                {
+                    label: 'Stat Gain per Level (%)',
+                    data: currentData.map(d => d.delta_pct),
+                    borderColor: '#10b981',
+                    backgroundColor: 'rgba(16, 185, 129, 0.1)',
                     yAxisID: 'y1',
                     tension: 0.4
                 }
@@ -90,12 +98,22 @@ const BlessingPage = () => {
                 type: 'linear',
                 display: true,
                 position: 'left',
+                title: {
+                    display: true,
+                    text: 'Sage Stones / Cost Per 1% Gain',
+                    color: '#94a3b8'
+                },
                 grid: { color: 'rgba(255, 255, 255, 0.1)' }
             },
             y1: {
                 type: 'linear',
                 display: true,
                 position: 'right',
+                title: {
+                    display: true,
+                    text: 'Stat Increase per Level (%)',
+                    color: '#94a3b8'
+                },
                 grid: { drawOnChartArea: false }
             }
         },

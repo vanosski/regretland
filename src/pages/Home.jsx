@@ -148,7 +148,7 @@ export default function Home() {
           <div className="home-hero-inner">
             <p className="home-eyebrow">⚔ Last Land Analytics ⚔</p>
             <h1 className="home-title">
-              <span className="home-title-dept">DEPARTMENT OF</span>
+              <span className="home-title-dept">LAND OF</span>
               <span className="home-title-regret">REGRET</span>
             </h1>
           </div>
@@ -177,6 +177,7 @@ export default function Home() {
                   <h3 className="htb-title">
                     {t.title}
                   </h3>
+                  <span className="htb-arrow">›</span>
                 </div>
                 <div className="htb-glow" />
               </Link>
