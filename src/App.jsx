@@ -7,6 +7,7 @@ import GemsPage     from './pages/GemsPage';
 import EchoPage    from './pages/EchoPage';
 import GloryPage    from './pages/GloryPage';
 import CeremonyPage from './pages/CeremonyPage';
+import HalloweenPage from './pages/HalloweenPage';
 import { Wand2, Sparkles, Gem, Swords, Droplet, Crown, Menu, X } from 'lucide-react';
 import './index.css';
 
@@ -333,6 +334,9 @@ function App() {
               <NavLink to="/ceremony" onClick={() => setIsMenuOpen(false)} className={({ isActive }) => 'nav-link' + (isActive ? ' active' : '')} style={{display:'flex', alignItems:'center', gap:'6px'}}>
                 <Crown size={16} /> Ceremony
               </NavLink>
+              <NavLink to="/halloween" onClick={() => setIsMenuOpen(false)} className={({ isActive }) => 'nav-link' + (isActive ? ' active' : '')} style={{display:'flex', alignItems:'center', gap:'6px'}}>
+                🎃 Halloween
+              </NavLink>
             </div>
           </div>
         </nav>
@@ -346,6 +350,7 @@ function App() {
             <Route path="/glory"     element={<GloryPage />} />
             <Route path="/echo"      element={<EchoPage />} />
             <Route path="/ceremony"  element={<CeremonyPage />} />
+            <Route path="/halloween" element={<HalloweenPage />} />
           </Routes>
         </main>
 

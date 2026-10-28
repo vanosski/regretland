@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { Wand2, Sparkles, Gem, Swords, Droplet, Crown } from 'lucide-react';
+import { Wand2, Sparkles, Gem, Swords, Droplet, Crown, Ghost } from 'lucide-react';
 import './Home.css';
 
 const TOOLS = [
@@ -57,6 +57,15 @@ const TOOLS = [
     border: '1px solid rgba(249,115,22,0.4)',
     bgStyle: 'radial-gradient(circle at center right, rgba(249,115,22,0.15) 0%, transparent 50%), linear-gradient(135deg, rgba(10,12,28,0.9) 0%, rgba(28,18,12,0.9) 100%)',
     icon: <Crown size={28} />
+  },
+  {
+    title: 'Halloween Planner',
+    to: '/halloween',
+    color: '#a78bfa',
+    glow: 'rgba(167,139,250,0.8)',
+    border: '1px solid rgba(167,139,250,0.4)',
+    bgStyle: 'radial-gradient(circle at top left, rgba(249,115,22,0.18) 0%, transparent 55%), radial-gradient(circle at bottom right, rgba(124,58,237,0.20) 0%, transparent 55%), linear-gradient(135deg, rgba(10,12,28,0.9) 0%, rgba(24,12,30,0.9) 100%)',
+    icon: <Ghost size={28} />
   },
 ];
 
